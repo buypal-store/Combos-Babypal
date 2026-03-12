@@ -3,11 +3,11 @@ const PRODUCTS = [
   {
   id: "extractor-inalambrico-s22",
   name: "Extractor Inalámbrico Recargable S22",
-  price: 229,
+  price: 250,
   category: "Lactancia",
   subCategory: "Extractores y Recolector de leche",
   type: "extractor",
-  image: "imagenes/Cyber/s22.jpeg",
+  image: "imagenes/Lactancia/EXTRACTOR S22.jpeg",
   highlights: [
     "Modos y niveles: 3 modos y 9 niveles",
     "Material: PP + Silicona",
@@ -25,7 +25,7 @@ const PRODUCTS = [
   category: "Lactancia",
   subCategory: "Extractores y Recolector de leche",
   type: "extractor",
-  image: "imagenes/Cyber/s20.jpeg",
+  image: "imagenes/Lactancia/extractor s20.jpeg",
   highlights: [
     "Modos y niveles: 3 modos y 9 niveles",
     "Material: PP + Silicona",
@@ -43,7 +43,7 @@ const PRODUCTS = [
   category: "Lactancia",
   subCategory: "Extractores y Recolector de leche",
   type: "extractor",
-  image: "imagenes/Cyber/s09 2da gen.jpeg",
+  image: "imagenes/Lactancia/s09 2da gen.jpeg",
   highlights: [
     "Modos y niveles: 3 modos y 9 niveles",
     "Material: PP + Silicona",
@@ -61,7 +61,7 @@ const PRODUCTS = [
   category: "Lactancia",
   subCategory: "Extractores y Recolector de leche",
   type: "extractor",
-  image: "imagenes/Cyber/s09.jpeg",
+  image: "imagenes/Lactancia/EXTRACTOR S09.jpeg",
   highlights: [
     "Modos y niveles: 3 modos y 9 niveles",
     "Material: PP + Silicona",
@@ -99,7 +99,7 @@ const PRODUCTS = [
   category: "Lactancia",
   subCategory: "Extractores y Recolector de leche",
   type: "extractor",
-  image: "imagenes/Cyber/momcoozy.jpeg",
+  image: "imagenes/Lactancia/EXTRACTOR MOMCOZY.jpeg",
   highlights: [
     "Modelo: MOMCOZY M5",
     "Extractores: 2 extractores",
@@ -152,7 +152,7 @@ const PRODUCTS = [
 {
   id: "almohada-lactancia-3en1",
   name: "Almohada de Lactancia 3 en 1",
-  price: 79,
+  price: 99,
   category: "Lactancia",
   subCategory: "Complementos",
   type: "almohada",
@@ -286,7 +286,7 @@ const PRODUCTS = [
 {
   id: "protectores-pezones-lansinoh-20mm",
   name: "2 Protectores de Pezones Lansinoh con Estuche",
-  price: 49.90,
+  price: 50,
   category: "Lactancia",
   subCategory: "Complementos",
   type: "protector",
@@ -376,7 +376,7 @@ const PRODUCTS = [
 {
   id: "biberon-pigeon-pp",
   name: "Biberón Pigeon PP Libre de BPA y BPS",
-  price: 39.90,
+  price: 40,
   category: "Alimentación del Bebé",
   subCategory: "Biberones y Tetinas",
   type: "biberon",
@@ -417,7 +417,7 @@ const PRODUCTS = [
 {
   id: "biberon-pigeon-pp",
   name: "Biberón Pigeon PP Libre de BPA y BPS",
-  price: 51,
+  price: 60,
   category: "Alimentación del Bebé",
   subCategory: "Biberones y Tetinas",
   type: "biberon",
@@ -442,7 +442,7 @@ const PRODUCTS = [
 {
   id: "biberon-pigeon-vidrio-160ml",
   name: "Biberón Pigeon 160ml de Vidrio Libre de BPA y BPS",
-  price: 54,
+  price: 64,
   category: "Alimentación del Bebé",
   subCategory: "Biberones y Tetinas",
   type: "biberon",
@@ -499,7 +499,7 @@ const PRODUCTS = [
 {
   id: "tetina-pigeon-silicona-anticolico",
   name: "Tetina Pigeon de Silicona con Sistema Anticólico",
-  price: 29,
+  price: 39,
   category: "Alimentación del Bebé",
   subCategory: "Biberones y Tetinas",
   type: "tetina",
@@ -537,11 +537,11 @@ const PRODUCTS = [
 {
   id: "calentador-leche-pantalla-digital",
   name: "Calentador de Leche con Pantalla Digital",
-  price: 119,
+  price: 129,
   category: "Alimentación del Bebé",
   subCategory: "Calentadores de Leche",
   type: "calentador",
-  image: "imagenes/Cyber/Calentador Pantalla Digital.jpeg",
+  image: "imagenes/Alimentación del Bebé/CALENTADOR DE LECHE.jpeg",
   highlights: [
     "Medidas: 12 x 8 cm",
     "Material: Acero inoxidable",
@@ -618,7 +618,7 @@ const PRODUCTS = [
   category: "Alimentación del Bebé",
   subCategory: "Complementos",
   type: "procesador",
-  image: "imagenes/Cyber/Procesador de alimentos.jpeg",
+  image: "imagenes/Alimentación del Bebé/Procesador de Alimentos.jpg",
   highlights: [
     "Medidas: 23 x 20 x 13 cm",
     "Material: PP y acero inoxidable",
@@ -683,7 +683,7 @@ const PRODUCTS = [
 {
   id: "limpiador-biberones-pigeon-450ml",
   name: "Limpiador de Biberones Pigeon 450ml",
-  price: 39,
+  price: 49,
   category: "Higiene y Limpieza",
   subCategory: "Limpiadores",
   type: "limpiador",
@@ -702,7 +702,7 @@ const PRODUCTS = [
 {
   id: "limpiador-biberones-pigeon-650ml",
   name: "Limpiador de Biberones Pigeon 650ml",
-  price: 35,
+  price: 45,
   category: "Higiene y Limpieza",
   subCategory: "Limpiadores",
   type: "limpiador",
@@ -721,7 +721,7 @@ const PRODUCTS = [
 {
   id: "limpiador-biberones-pigeon-700ml",
   name: "Limpiador de Biberones Pigeon 700ml",
-  price: 55,
+  price: 65,
   category: "Higiene y Limpieza",
   subCategory: "Limpiadores",
   type: "limpiador",
@@ -884,11 +884,11 @@ const PRODUCTS = [
 {
   id: "banera-cambiador-termometro-2en1",
   name: "Bañera Cambiador con Termómetro 2 en 1",
-  price: 329,
+  price: 249,
   category: "Baño del Bebé",
   subCategory: "Bañeras",
   type: "banera",
-  image: "imagenes/Cyber/bañera cambiador.jpeg",
+  image: "imagenes/Baño del Bebé/BAÑERA CAMBIADOR.jpeg",
   highlights: [
     "Material: Hierro y polipropileno",
     "Medidas: 83 x 48 x 93 cm",
@@ -979,7 +979,7 @@ const PRODUCTS = [
 {
   id: "mecedora-automatica-bluetooth",
   name: "Mecedora Automática con Bluetooth",
-  price: 229,
+  price: 279,
   category: "Sueño y Descanso",
   subCategory: "Mecedoras",
   type: "mecedora",
@@ -1042,7 +1042,7 @@ const PRODUCTS = [
   category: "Sueño y Descanso",
   subCategory: "Cuna y Almohada Colecho",
   type: "cuna",
-  image: "imagenes/Cyber/5 en 1.jpeg",
+  image: "imagenes/Sueño y Descanso/colecho.jpg",
   highlights: [
     "Medidas: 88 x 56 x 122 cm",
     "Altura: 5 niveles ajustables",
@@ -1271,8 +1271,8 @@ const PRODUCTS = [
 
 {
   id: "mochila-calentador-termica-lactancia",
-  name: "Mochila Calentador Térmica para Biberones y Lactancia",
-  price: 49,
+  name: "Lonchera Térmica",
+  price: 69,
   category: "Paseo y Transporte",
   subCategory: "Complementos",
   type: "mochila",
@@ -1314,7 +1314,7 @@ const PRODUCTS = [
   category: "Estimulación y Juegos",
   subCategory: "Movil de Cuna y Andadores",
   type: "andador",
-  image: "imagenes/Cyber/andador musical.jpeg",
+  image: "imagenes/Estimulación y Juegos/Andador Musical.jpeg",
   highlights: [
     "Colores: Rosa",
     "Medidas: 43 x 36 x 42 cm",
@@ -1333,7 +1333,7 @@ const PRODUCTS = [
   category: "Estimulación y Juegos",
   subCategory: "Movil de Cuna y Andadores",
   type: "andador",
-  image: "imagenes/Cyber/gimnasio 2 en 1 musical.jpeg",
+  image: "imagenes/Estimulación y Juegos/Mini Gimnasio y Andador Musical.jpeg",
   highlights: [
     "2 en 1: Andador y mini gimnasio",
     "Medidas: 39 x 43 x 34 cm",
@@ -1588,11 +1588,11 @@ const PRODUCTS = [
 {
   id: "camara-baby-monitor-proteccion",
   name: "Cámara Baby Monitor con Pantalla y Visión Nocturna",
-  price: 199,
+  price: 229,
   category: "Protección",
   subCategory: "Seguridad",
   type: "camara",
-  image: "imagenes/Cyber/Pantalla con Monitor.jpeg",
+  image: "imagenes/Seguridad/Camara Monitor.jpeg",
   highlights: [
     "Audio bidireccional",
     "Zoom digital x4",
@@ -1683,7 +1683,7 @@ const PRODUCTS = [
     "Control desde app Imou Life"
   ]
 },
-{
+/*{
   id: "combo",
   name: "Combo Baño con Parante",
   price: 189,
@@ -1699,10 +1699,11 @@ const PRODUCTS = [
     "Parante de Bañera"
   ]
 },
+*/
 {
   id: "combo",
-  name: "Combo Baño",
-  price: 159,
+  name: "Combo Bañera",
+  price: 179,
   category: "Combos",
   subCategory: "",
   type: "camara",
@@ -1734,7 +1735,7 @@ const PRODUCTS = [
     
   ]
 },
-{
+/*{
   id: "combo",
   name: "Combo Lactancia Premium",
   price: 825,
@@ -1753,15 +1754,127 @@ const PRODUCTS = [
 "Lonchera térmica + almohada lactancia",
 "Kit completo de lactancia"  ]
 },
+*/
+{
+  id: "combo1",
+  name: "Combo Lonchera Térmica",
+  price: 99,
+  category: "Combos",
+  subCategory: "",
+  type: "lonchera",
+  image: "imagenes/Combos Marzo/Combo 1.jpeg",
+  highlights: [
+    "Lonchera térmica (opciones de color)",
+    "30 bolsitas de leche",
+    "2 geles de hielo reutilizables"
+  ]
+},
+{
+  id: "combo2",
+  name: "Combo Biberón Vidrio",
+  price: 99,
+  category: "Combos",
+  subCategory: "",
+  type: "biberon",
+  image: "imagenes/Combos Marzo/Combo 2.jpeg",
+  highlights: [
+    "Biberón de vidrio 5oz",
+    "Dispensador de fórmula (opciones de color)",
+    "Tetina Pigeon"
+  ]
+},
+{
+  id: "combo3",
+  name: "Combo Limpieza Biberón",
+  price: 95,
+  category: "Combos",
+  subCategory: "",
+  type: "biberon",
+  image: "imagenes/Combos Marzo/Combo 3.jpeg",
+  highlights: [
+    "Limpiador Pigeon 650ml",
+    "Cepillos para biberón (opciones de color)",
+    "Biberón PP (5oz, 8oz o 11oz)"
+  ]
+},
+{
+  id: "comboBaneraPremium",
+  name: "Combo Bañera Premium",
+  price: 379,
+  category: "Combos",
+  subCategory: "",
+  type: "banera",
+  image: "imagenes/Combos Marzo/Combo Bañera Premium.jpeg",
+  highlights: [
+    "Bañera cambiador",
+    "Regadera eléctrica",
+    "Toalla (opciones de color)",
+    "Kit de limpieza (opciones de color)"
+  ]
+},
 
+{
+  id: "comboPremium777",
+  name: "Combo Premium Cuna + Bañera",
+  price: 777,
+  category: "Combos",
+  subCategory: "",
+  type: "premium",
+  image: "imagenes/Combos Marzo/Combo Premium.jpeg",
+  highlights: [
+    "Bañera cambiador",
+    "Mecedora eléctrica (opciones de color)",
+    "Cuna corral 5 en 1"
+  ]
+},
+{
+  id: "comboSplash",
+  name: "Combo Splash",
+  price: 238,
+  category: "Combos",
+  subCategory: "",
+  type: "banera",
+  image: "imagenes/Combos Marzo/Combo Splash.jpeg",
+  highlights: [
+    "Bañera plegable (opciones de color)",
+    "Cojín para bañera",
+    "Regadera eléctrica",
+    "Toalla (opciones de color)",
+    "Gorro (opciones de color)",
+    "Kit de limpieza (opciones de color)",
+    "Organizador 3 niveles"
+  ]
+},
+{
+  id: "comboLonchera1",
+  name: "Combo Lonchera 1",
+  price: 149,
+  category: "Combos",
+  subCategory: "",
+  type: "lonchera",
+  image: "imagenes/Combos Marzo/Lonchera 1.jpeg",
+  highlights: [
+    "Lonchera térmica (opciones de color)",
+    "2 geles de hielo",
+    "3 frascos recolectores"
+  ]
+},
 
-
-
-
-
-
-
-
+{
+  id: "comboLonchera2",
+  name: "Combo Lonchera 2",
+  price: 348,
+  category: "Combos",
+  subCategory: "",
+  type: "lonchera",
+  image: "imagenes/Combos Marzo/Lonchera 2.jpeg",
+  highlights: [
+    "Lonchera térmica (opciones de color)",
+    "Extractor eléctrico",
+    "2 geles de hielo",
+    "3 frascos recolectores"
+  ]
+},
 
 
 

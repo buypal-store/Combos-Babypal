@@ -1292,3 +1292,45 @@ body{
   padding-left: 120px;
 }
  
+.combo-price-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.combo-live-box {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.combo-price {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 14px;
+}
+
+.normal-price {
+  font-weight: 700;
+  opacity: 0.6;
+}
+
+.live-price-box {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: #eef2f7;
+  padding: 6px 10px;
+  border-radius: 10px;
+}
+
+.live-price-box input {
+  width: 80px;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: right;
+}

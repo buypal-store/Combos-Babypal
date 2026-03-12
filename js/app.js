@@ -8,7 +8,7 @@ const state = {
   finalPrice: 0,
   cartSeq: 0
 };
-state.gifts = new Set(); // guarda cartId de productos regalados
+state.gifts = new Set(); // guarda cartId de productos regalados 
 
 // ✅ SOLO estos 3 tendrán opción de regalo
 const GIFT_ELIGIBLE_IDS = new Set([
@@ -23,10 +23,10 @@ const GIFT_ELIGIBLE_IDS = new Set([
   
 ]);
 const GIFT_IMAGE_BY_PRODUCT_ID = {
-  "almohada-lactancia-3en1": "extras/Almohada de Lactancia.jpg",
+   "almohada-lactancia-3en1": "extras/Almohada de Lactancia.jpg",
   "cuna-colecho-ajustable-4en1": "extras/Colchon colecho.jpg",
   "coche-moises-multifuncional": "extras/Coche Moises.jpg",
-  "banera-plegable-termometro": "extras/Bañera Plegable.jpg"
+  "banera-plegable-termometro": "extras/regadera_cojin_bebe.jpg"
 };
 
 function getGiftImage(product) {
@@ -390,7 +390,8 @@ function addToCart(product) {
 
   const item = {
     ...product,
-    cartId: ++state.cartSeq
+    cartId: ++state.cartSeq,
+    livePrice: null   // ✅ NUEVO
   };
 
   // ✅ cada cámara tiene su propia memoria (64 por defecto)
@@ -489,6 +490,15 @@ function openSummary() {
 
 function closeSummary() {
   el("summaryModal").classList.add("hidden");
+}
+function getEffectivePrice(p) {
+  if (isGiftEligible(p) && isGift(p)) return 0;
+
+  if (p.livePrice && p.livePrice > 0) {
+    return p.livePrice;
+  }
+
+  return Number(p.price) || 0;
 }
 function renderSummary() {
   // ---- Helpers memoria (solo se usa si hay cámaras) ----
@@ -619,12 +629,21 @@ function renderSummary() {
   let subtotal = 0;
 
   if (cams.length > 0) {
-    const camBase = cams.reduce((a, p) => a + basePriceOrZero(p), 0);
+    const camBase = cams.reduce((a, p) => {
+  const price = getEffectivePrice(p);
+  return a + price;
+}, 0);
     const memTotal = cams.reduce((a, p) => a + memoryExtra(p.memory), 0);
-    const extrasBase = extras.reduce((a, p) => a + basePriceOrZero(p), 0);
+    const extrasBase = extras.reduce((a, p) => {
+  const price = getEffectivePrice(p);
+  return a + price;
+}, 0);
     subtotal = camBase + memTotal + extrasBase;
   } else {
-    subtotal = items.reduce((a, p) => a + basePriceOrZero(p), 0);
+    subtotal = items.reduce((a, p) => {
+  const price = getEffectivePrice(p);
+  return a + price;
+}, 0);
   }
 
   // === 3) Precio final negociado ===
@@ -669,7 +688,20 @@ function renderSummary() {
             </div>
           </div>
 
-          <div class="combo-price">${formatPEN(priceShown)}</div>
+          <div class="combo-price">
+  <div class="normal-price">${formatPEN(priceShown)}</div>
+  <div class="live-price-box">
+    S/
+    <input 
+      type="text"
+      class="live-price-input"
+      data-cartid="${p.cartId}"
+      value="${p.livePrice ? p.livePrice : ""}"
+      placeholder="0"
+      inputmode="numeric"
+    >
+  </div>
+</div>
         `;
         comboBox.appendChild(item);
         bindGiftClick(item, p);
@@ -696,7 +728,23 @@ function renderSummary() {
             </div>
           </div>
 
-          <div class="combo-price">${formatPEN(basePriceOrZero(p))}</div>
+          <div class="combo-price">
+  <div class="normal-price">
+    ${formatPEN(basePriceOrZero(p))}
+  </div>
+
+  <div class="live-price-box">
+    S/
+    <input 
+      type="text"
+      class="live-price-input"
+      data-cartid="${p.cartId}"
+      value="${p.livePrice ? p.livePrice : ""}"
+      placeholder="0"
+      inputmode="numeric"
+    >
+  </div>
+</div>
         `;
         comboBox.appendChild(item);
         bindGiftClick(item, p);
@@ -726,7 +774,23 @@ function renderSummary() {
             </div>
           </div>
 
-          <div class="combo-price">${formatPEN(basePriceOrZero(p))}</div>
+          <div class="combo-price">
+  <div class="normal-price">
+    ${formatPEN(basePriceOrZero(p))}
+  </div>
+
+  <div class="live-price-box">
+    S/
+    <input 
+      type="text"
+      class="live-price-input"
+      data-cartid="${p.cartId}"
+      value="${p.livePrice ? p.livePrice : ""}"
+      placeholder="0"
+      inputmode="numeric"
+    >
+  </div>
+</div>
         `;
         comboBox.appendChild(item);
         bindGiftClick(item, p);
@@ -739,6 +803,9 @@ function renderSummary() {
   if (fi && document.activeElement !== fi) {
     fi.value = state.finalPrice ? String(state.finalPrice) : "";
   }
+
+
+
 }
 
 // Estado regalos
@@ -795,7 +862,44 @@ async function copyToClipboard() {
 async function goFullscreen() {
   try { await document.documentElement.requestFullscreen(); } catch { }
 }
+  function updateSummaryTotalsOnly() {
+  const items = state.cart || [];
 
+  // subtotal ORIGINAL (sin regalos)
+  let subtotalOriginal = items.reduce((acc, p) => {
+    return acc + (Number(p.price) || 0);
+  }, 0);
+
+  // subtotal ACTUAL (considerando regalos y live price)
+  let subtotalLive = items.reduce((acc, p) => {
+
+    // 🎁 si es regalo vale 0
+    if (isGiftEligible(p) && isGift(p)) {
+      return acc;
+    }
+
+    const price =
+      p.livePrice !== null
+        ? p.livePrice
+        : (Number(p.price) || 0);
+
+    return acc + price;
+
+  }, 0);
+
+  const subtotal = subtotalOriginal;
+  const final = subtotalLive;
+  const discount = Math.max(0, subtotalOriginal - subtotalLive);
+
+  if (el("sumSubtotal")) el("sumSubtotal").textContent = formatPEN(subtotal);
+  if (el("sumFinal")) el("sumFinal").textContent = formatPEN(final);
+  if (el("sumDiscountValue")) el("sumDiscountValue").textContent = formatPEN(discount);
+
+  const fi = el("finalInput");
+  if (fi && document.activeElement !== fi) {
+    fi.value = final;
+  }
+}
 /* Eventos */
 function bindEvents() {
   const searchInput = el("searchInput");
@@ -886,6 +990,39 @@ function bindEvents() {
       }
     }
   }, true);
+
+  document.addEventListener("focus", (e) => {
+  if (e.target && e.target.classList.contains("live-price-input")) {
+
+    const input = e.target;
+
+    // si tiene un valor, se selecciona todo para escribir encima
+    if (input.value) {
+      input.select();
+    }
+
+  }
+}, true);
+
+document.addEventListener("input", (e) => {
+  if (e.target && e.target.classList.contains("live-price-input")) {
+
+    const input = e.target;
+
+    const clean = String(input.value || "").replace(/\D/g, "");
+    if (input.value !== clean) input.value = clean;
+
+    const cartId = Number(input.dataset.cartid);
+    const item = state.cart.find(x => x.cartId === cartId);
+
+    if (item) {
+      item.livePrice = clean === "" ? null : Number(clean);
+
+      // 🔥 SOLO recalcular totales sin reconstruir todo
+      updateSummaryTotalsOnly();
+    }
+  }
+}, true);
 
 }
 
