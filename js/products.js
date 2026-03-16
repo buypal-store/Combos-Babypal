@@ -884,7 +884,7 @@ const PRODUCTS = [
 {
   id: "banera-cambiador-termometro-2en1",
   name: "Bañera Cambiador con Termómetro 2 en 1",
-  price: 249,
+  price: 349,
   category: "Baño del Bebé",
   subCategory: "Bañeras",
   type: "banera",
