@@ -664,7 +664,7 @@ const PRODUCTS = [
 {
   id: "set-limpiador-biberones",
   name: "Set Limpiador de Biberones",
-  price: 25,
+  price: 39,
   category: "Higiene y Limpieza",
   subCategory: "Limpiadores",
   type: "limpieza",
