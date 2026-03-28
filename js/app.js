@@ -24,7 +24,6 @@ const GIFT_ELIGIBLE_IDS = new Set([
 ]);
 const GIFT_IMAGE_BY_PRODUCT_ID = {
    "almohada-lactancia-3en1": "extras/lactancia.jpg",
-  "cuna-colecho-ajustable-4en1": "extras/mini_almohadita.jpg",
   "coche-moises-multifuncional": "extras/coche moises.jpg",
   "banera-plegable-termometro": "extras/regadera_cojin_bebe.jpg"
 };

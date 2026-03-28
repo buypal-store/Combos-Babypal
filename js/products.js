@@ -56,12 +56,12 @@ const PRODUCTS = [
 },
 {
   id: "extractor-inalambrico-s09",
-  name: "Extractor Inalámbrico Recargable S09",
-  price: 208,
+  name: "Extractor S09 1era Generación",
+  price: 168,
   category: "Lactancia",
   subCategory: "Extractores y Recolector de leche",
   type: "extractor",
-  image: "imagenes/Lactancia/EXTRACTOR S09.jpeg",
+  image: "imagenes/Lactancia/Extractor S09 1era.jpeg",
   highlights: [
     "Modos y niveles: 3 modos y 9 niveles",
     "Material: PP + Silicona",
@@ -572,6 +572,44 @@ const PRODUCTS = [
     "Incluye: Almacenamiento inferior"
   ]
 },
+{
+  id: "silla-comedor-multifuncional-rosada",
+  name: "Silla de Comer Multifuncional Rosada",
+  price: 169,
+  category: "Alimentación del Bebé",
+  subCategory: "Sillas de Comer",
+  type: "silla_comer",
+  image: "imagenes/Alimentación del Bebé/silla rosado comedor.jpeg",
+  highlights: [
+    "Diseño: Multifuncional 2 en 1 (silla alta y baja)",
+    "Color: Rosado con blanco",
+    "Bandeja: Extraíble y fácil de limpiar",
+    "Movilidad: Ruedas con sistema de desplazamiento",
+    "Seguridad: Base estable y estructura resistente",
+    "Asiento: Cómodo con respaldo ergonómico",
+    "Material: Plástico resistente y fácil limpieza",
+    "Uso: Ideal para alimentación y descanso del bebé"
+  ]
+},
+{
+  id: "silla-comedor-multifuncional-verde",
+  name: "Silla de Comer Multifuncional Verde",
+  price: 169,
+  category: "Alimentación del Bebé",
+  subCategory: "Sillas de Comer",
+  type: "silla_comer",
+  image: "imagenes/Alimentación del Bebé/silla verde comedor.jpeg",
+  highlights: [
+    "Diseño: Multifuncional 2 en 1 (silla alta y baja)",
+    "Color: Rosado con blanco",
+    "Bandeja: Extraíble y fácil de limpiar",
+    "Movilidad: Ruedas con sistema de desplazamiento",
+    "Seguridad: Base estable y estructura resistente",
+    "Asiento: Cómodo con respaldo ergonómico",
+    "Material: Plástico resistente y fácil limpieza",
+    "Uso: Ideal para alimentación y descanso del bebé"
+  ]
+},
 /*{
   id: "silla-comer-multifuncion-rodante",
   name: "Silla de Comer Multifunción Rodante y Reclinable",
@@ -1015,6 +1053,26 @@ const PRODUCTS = [
   ]
 },
 {
+  id: "mecedora-manual",
+  name: "Mecedora Manual",
+  price: 79,
+  category: "Sueño y Descanso",
+  subCategory: "Mecedoras",
+  type: "mecedora",
+  image: "imagenes/Paseo y Transporte/mecedora manual.jpeg",
+  highlights: [
+   "Diseño Ergonómico: Proporciona el soporte adecuado para la espalda y el cuello",
+"Movimiento Suave: El balanceo tranquilo ayuda a calmar y dormir a tu bebé",
+"Materiales de Alta Calidad: Fabricada con telas suaves y resistentes",
+"Estructura Robusta: Base sólida que asegura estabilidad y tranquilidad",
+"Cuenta con cinturón de seguridad y soporta hasta 18 kg de peso",
+"Alto de asiento: 73cm, Ancho de asiento: 33cm"
+  ]
+},
+
+
+
+{
   id: "cuna-colecho-ajustable-4en1",
   name: "Cuna Colecho Ajustable 3 en 1",
   price: 249,
@@ -1288,6 +1346,27 @@ const PRODUCTS = [
     "Práctica: Para salidas y viajes"
   ]
 },
+
+{
+  id: "canguro-ergonomico",
+  name: "Canguro Ergonómico",
+  price: 119,
+  category: "Paseo y Transporte",
+  subCategory: "Complementos",
+  type: "mochila",
+  image: "imagenes/Paseo y Transporte/canguro ergonomico.jpeg",
+  highlights: [
+    "Diseño: Ergonómico con soporte lumbar",
+    "Posiciones: Múltiples formas de carga (frontal, lateral)",
+    "Comodidad: Tirantes acolchados y transpirables",
+    "Soporte: Asiento tipo cadera desmontable",
+    "Seguridad: Broches firmes y ajustables",
+    "Material: Tela resistente y respirable",
+    "Accesorios: Bolsillos laterales funcionales",
+    "Uso: Ideal para paseos y carga cómoda del bebé"
+  ]
+},
+
 {
   id: "movil-cuna-giratorio-musical",
   name: "Móvil de Cuna Giratorio Musical con 4 Juguetes",
@@ -1526,6 +1605,65 @@ const PRODUCTS = [
     "No incluye: Pelotitas"
   ]
 },
+{
+  id: "corral-plegable-rosado",
+  name: "Corral Plegable para Bebé Rosado",
+  price: 259,
+  category: "Estimulación y Juegos",
+  subCategory: "Juguetes y Corrales",
+  type: "corral",
+  image: "imagenes/Estimulación y Juegos/corral plegable rosado.jpeg",
+  highlights: [
+    "Diseño: Plegable y modular",
+    "Color: Rosado con lila",
+    "Paneles: Interconectables para diferentes formas",
+    "Seguridad: Bordes redondeados y estructura firme",
+    "Puerta: Acceso con seguro integrado",
+    "Material: Plástico resistente y seguro",
+    "Entretenimiento: Paneles con figuras y juegos didácticos",
+    "Uso: Ideal para crear un espacio seguro de juego"
+  ]
+},
+{
+  id: "corral-plegable-blanco",
+  name: "Corral Plegable para Bebé Celeste",
+  price: 259,
+  category: "Estimulación y Juegos",
+  subCategory: "Juguetes y Corrales",
+  type: "corral",
+  image: "imagenes/Estimulación y Juegos/corral plegable celeste.jpeg",
+  highlights: [
+    "Diseño: Plegable y modular",
+    "Color: Celeste con Blanco",
+    "Paneles: Interconectables para diferentes formas",
+    "Seguridad: Bordes redondeados y estructura firme",
+    "Puerta: Acceso con seguro integrado",
+    "Material: Plástico resistente y seguro",
+    "Entretenimiento: Paneles con figuras y juegos didácticos",
+    "Uso: Ideal para crear un espacio seguro de juego"
+  ]
+},
+{
+  id: "corral-plegable-celeste",
+  name: "Corral Plegable para Bebé Blanco",
+  price: 259,
+  category: "Estimulación y Juegos",
+  subCategory: "Juguetes y Corrales",
+  type: "corral",
+  image: "imagenes/Estimulación y Juegos/corral plegable blanco.jpeg",
+  highlights: [
+    "Diseño: Plegable y modular",
+    "Color: Blanco",
+    "Paneles: Interconectables para diferentes formas",
+    "Seguridad: Bordes redondeados y estructura firme",
+    "Puerta: Acceso con seguro integrado",
+    "Material: Plástico resistente y seguro",
+    "Entretenimiento: Paneles con figuras y juegos didácticos",
+    "Uso: Ideal para crear un espacio seguro de juego"
+  ]
+},
+
+
 
 
 {
