@@ -19,6 +19,26 @@ const PRODUCTS = [
   ]
 },
 {
+  id: "extractor-inalambrico-s22",
+  name: "Extractor S22 2da Generación",
+  price: 250, // Ajusta el precio
+  category: "Lactancia",
+  subCategory: "Extractores y Recolector de leche",
+  type: "extractor",
+  image: "imagenes/Lactancia/Extractor S22 2da Generación.jpeg",
+  highlights: [
+    "2da generación: mayor eficiencia y menor ruido",
+    "Modos y niveles: múltiples modos y niveles ajustables",
+    "Diseño inalámbrico y portátil",
+    "Material: PP + Silicona grado alimenticio",
+    "Pantalla digital táctil",
+    "Capacidad: aprox. 210 ml",
+    "Carga USB recargable",
+    "Uso: Esterilizar antes de usar"
+  ]
+},
+
+{
   id: "extractor-inalambrico-s20",
   name: "Extractor Eléctrico S20 Pezón Plano e Invertido",
   price: 250,
@@ -36,28 +56,11 @@ const PRODUCTS = [
     "Uso: Esterilizar antes de usar"
   ]
 },
-{
-  id: "extractor-inalambrico-s09-2da-gen",
-  name: "Extractor Eléctrico S09 2da Generación",
-  price: 208,
-  category: "Lactancia",
-  subCategory: "Extractores y Recolector de leche",
-  type: "extractor",
-  image: "imagenes/Lactancia/s09 2da gen.jpeg",
-  highlights: [
-    "Modos y niveles: 3 modos y 9 niveles",
-    "Material: PP + Silicona",
-    "Brida: 24 mm",
-    "Capacidad: 150 ml",
-    "Tamaño: 16 x 12 x 8 cm",
-    "Incluye: 4 adaptadores y repuestos",
-    "Uso: Esterilizar antes de usar"
-  ]
-},
+
 {
   id: "extractor-inalambrico-s09",
   name: "Extractor S09 1era Generación",
-  price: 168,
+  price: 208,
   category: "Lactancia",
   subCategory: "Extractores y Recolector de leche",
   type: "extractor",
@@ -668,6 +671,24 @@ const PRODUCTS = [
     "Uso: Alimentación saludable para bebés"
   ]
 },
+{
+  id: "procesador-alimentos-bebe-2en1-touch",
+  name: "Procesador de Alimentos para Bebé 2 en 1",
+  price: 169, // Ajustar precio real aquí
+  category: "Alimentación del Bebé",
+  subCategory: "Complementos",
+  type: "preparación",
+  image: "imagenes/Alimentación del Bebé/Procesador de Alimentos 2 en 1.jpeg",
+  highlights: [
+    "Funciones: 2 en 1 (Cocina al vapor y licúa)",
+    "Interfaz: Pantalla táctil intuitiva y moderna",
+    "Seguridad: Sistema de doble cerradura integrado",
+    "Material: PP y Acero Inoxidable libre de BPA",
+    "Nutrición: Preserva vitaminas y minerales esenciales",
+    "Medidas: 28 cm x 21 cm x 12 cm",
+    "Voltaje: 220V para conexión directa a corriente"
+  ]
+},
 
 
 {
@@ -689,6 +710,25 @@ const PRODUCTS = [
     "Marca: Pigeon"
   ]
 },
+{
+  id: "set-3-frascos-recolectores-180ml",
+  name: "Set de 3 Frascos Recolectores 180ml",
+  price: 54, // Ajustar precio según corresponda
+  category: "Alimentación del Bebé",
+  subCategory: "Complementos",
+  type: "almacenamiento",
+  image: "imagenes/Alimentación del Bebé/Set de 3 Frascos Recolectores.jpeg",
+  highlights: [
+    "Incluye: 3 frascos de 180 ml / 6 oz",
+    "Uso: Almacenar, conservar y transportar leche",
+    "Funcional: Compatible con refrigerador y congelador",
+    "2 en 1: Se transforma en biberón (tetina no incluida)",
+    "Material: Polipropileno (PP) de alta calidad",
+    "Seguro: Libre de BPA y diseño hermético",
+    "Versátil: Compatible con extractores estándar"
+  ]
+},
+
 
 
 
@@ -1131,6 +1171,25 @@ const PRODUCTS = [
     "Ideal: Desde recién nacido hasta 3 años aprox."
   ]
 },
+
+{
+  id: "cuna-colecho-automatica-balancin-control",
+  name: "Cuna Colecho Automática",
+  price: 359, // Ajustar según tu precio de venta
+  category: "Sueño y Descanso",
+  subCategory: "Cuna y Almohada Colecho",
+  type: "descanso",
+  image: "imagenes/Sueño y Descanso/Cuna Colecho Automatica.jpeg",
+  highlights: [
+    "Funciones: 5 niveles de balanceo y música integrada",
+    "Control: Manejo a distancia mediante control remoto",
+    "Seguridad: Cinturón de protección y sistema de bloqueo",
+    "Movilidad: Ruedas giratorias 360° con freno",
+    "Material: Estructura de aluminio y tela Oxford",
+    "Incluye: Mosquitero, colchón y 2 juguetes colgantes",
+    "Medidas: 98 cm (Largo) x 57 cm (Ancho) x 102 cm (Alto)"
+  ]
+},
 /*{
   id: "almohada-colecho-multifuncional",
   name: "Almohada Colecho Multifuncional y Portátil",
@@ -1249,6 +1308,44 @@ const PRODUCTS = [
   ]
 },
 {
+  id: "coche-mellicero-doble-seguridad-5puntos",
+  name: "Coche Mellicero",
+  price: 319, // Ajustar precio según corresponda
+  category: "Paseo y Transporte",
+  subCategory: "Coches",
+  type: "transporte",
+  image: "imagenes/Paseo y Transporte/Coche Mellicero.jpeg",
+  highlights: [
+    "Seguridad: Cinturón de 5 puntos y barra frontal en cada asiento",
+    "Capacidad: Soporta hasta 15 kg por niño (hasta 3 años)",
+    "Maniobrabilidad: Ruedas 360° con bloqueo y posamanos ajustable",
+    "Material: Estructura de acero resistente, ABS y tela poliéster",
+    "Confort: Asientos amplios con reposapiés y posamanos acolchados",
+    "Almacenamiento: Doble canastilla inferior y dos bolsillos traseros",
+    "Medidas: 72 cm (Ancho) x 105 cm (Alto) x 71 cm (Largo)"
+  ]
+},
+
+{
+  id: "coche-maleta-portatil-reclinable-170",
+  name: "Coche Maleta Reclinable",
+  price: 129, 
+  category: "Paseo y Transporte",
+  subCategory: "Coches",
+  type: "transporte",
+  image: "imagenes/Paseo y Transporte/Coche Maleta Reclinable.jpeg",
+  highlights: [
+    "Portabilidad: Diseño plegable que se transforma en maleta",
+    "Descanso: Asiento reclinable hasta 170° y reposapiés ajustable",
+    "Seguridad: Cinturón de 5 puntos y barra frontal protectora",
+    "Maniobrabilidad: Ruedas de goma 360° con sistema de bloqueo",
+    "Material: Estructura de hierro resistente y tela de poliéster",
+    "Extras: Incluye porta biberón y amplia canastilla inferior",
+    "Medidas: 106 cm (Alto) x 52 cm (Ancho) x 78 cm (Largo)"
+  ]
+},
+
+{
   id: "panalera-cambiador-12-compartimientos",
   name: "Pañalera Cambiador con 12 Compartimientos",
   price: 79,
@@ -1349,12 +1446,12 @@ const PRODUCTS = [
 
 {
   id: "canguro-ergonomico",
-  name: "Canguro Ergonómico",
+  name: "Canguro Ergonómico 3 en 1",
   price: 119,
   category: "Paseo y Transporte",
   subCategory: "Complementos",
   type: "mochila",
-  image: "imagenes/Paseo y Transporte/canguro ergonomico.jpeg",
+  image: "imagenes/Paseo y Transporte/Canguro Ergonomico 3 en 1.jpeg",
   highlights: [
     "Diseño: Ergonómico con soporte lumbar",
     "Posiciones: Múltiples formas de carga (frontal, lateral)",
@@ -1364,6 +1461,25 @@ const PRODUCTS = [
     "Material: Tela resistente y respirable",
     "Accesorios: Bolsillos laterales funcionales",
     "Uso: Ideal para paseos y carga cómoda del bebé"
+  ]
+},
+
+{
+  id: "canguro-algodon-ergonomico-20kg",
+  name: "Canguro de Algodón Ergonómico",
+  price: 129, // Ajustar precio real aquí
+  category: "Paseo y Transporte",
+  subCategory: "Complementos",
+  type: "ergonómico",
+  image: "imagenes/Paseo y Transporte/Canguro Ergonomico Nuevo.jpeg",
+  highlights: [
+    "Ergonomía: Posición en M para el desarrollo de cadera",
+    "Capacidad: Soporta hasta 20 kg (0 a 36 meses)",
+    "Diseño: Respaldo en X para distribuir mejor el peso",
+    "Soporte: Lumbar incorporado y correas acolchadas",
+    "Material: Algodón suave, transpirable y resistente",
+    "Ajuste: Asiento y soporte de cuello adaptables",
+    "Comodidad: Apertura de piernas con bordes acolchados"
   ]
 },
 
@@ -1662,6 +1778,25 @@ const PRODUCTS = [
     "Uso: Ideal para crear un espacio seguro de juego"
   ]
 },
+{
+  id: "corral-bebe-juego-seguro-120x120",
+  name: "Corral para Bebé de Juego y Descanso",
+  price: 109, // Ajustar precio según corresponda
+  category: "Estimulación y Juegos", // O "Muebles y Dormitorio" según tu estructura
+  subCategory: "Juguetes y Corrales",
+  type: "corral",
+  image: "imagenes/Estimulación y Juegos/Corral Para Bebé.jpeg",
+  highlights: [
+    "Medidas: 120 cm x 120 cm x 62 cm (Alto)",
+    "Seguridad: Patas con ventosas antideslizantes",
+    "Vista: Panorámica 360° para supervisión constante",
+    "Accesos: Dos puertas con cierre de seguridad",
+    "Ventilación: Malla transpirable de alta calidad",
+    "Extras: Bolsillo lateral para juguetes",
+    "Montaje: Fácil de armar con manual incluido"
+  ]
+},
+
 
 
 
