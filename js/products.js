@@ -1329,7 +1329,7 @@ const PRODUCTS = [
 {
   id: "coche-maleta-portatil-reclinable-170",
   name: "Coche Maleta Reclinable",
-  price: 129, 
+  price: 229, 
   category: "Paseo y Transporte",
   subCategory: "Coches",
   type: "transporte",
