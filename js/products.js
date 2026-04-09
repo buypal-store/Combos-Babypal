@@ -134,6 +134,24 @@ const PRODUCTS = [
   ]
 },
 {
+  id: "extractor-leche-manual-pp-silicona",
+  name: "Extractor de Leche Manual",
+  price: 49, // Ajustar precio según corresponda
+  category: "Lactancia",
+  subCategory: "Extractores y Recolector de leche",
+  type: "recolector",
+  image: "imagenes/Lactancia/extractor manual.jpeg",
+  highlights: [
+    "Medidas: 23 x 23 x 10 cm",
+    "Material: PP y silicona, libre de BPA",
+    "Incluye: Extractor, biberón y manual de usuario",
+    "Portátil: Diseño compacto, ideal para usar en cualquier lugar",
+    "Cómodo: Minimiza tirones y pellizcos durante la extracción",
+    "2 en 1: La botella del extractor se convierte en biberón",
+    "Fácil de limpiar: Desmontaje rápido y sencillo"
+  ]
+},
+{
   id: "bolsitas-leche-250ml-30unid",
   name: "Bolsitas de Leche 250ml (30 unidades)",
   price: 29,
@@ -728,8 +746,41 @@ const PRODUCTS = [
     "Versátil: Compatible con extractores estándar"
   ]
 },
+{
+  id: "mini-refrigerador-portatil-led",
+  name: "Mini Refrigerador Portátil con Espejo",
+  price: 199, // Ajustar precio según corresponda
+  category: "Alimentación del Bebé",
+  subCategory: "Complementos",
+  type: "almacenamiento",
+  image: "imagenes/Alimentación del Bebé/minirefrigerador.jpeg",
+  highlights: [
+    "Temperatura ajustable: Función frío y caliente",
+    "Portátil: Medidas 28 x 25 x 19 cm, liviano y fácil de transportar",
+    "Alimentación versátil: Cable para enchufe de casa y para auto",
+    "Luz LED: 3 niveles de intensidad para mayor comodidad",
+    "Espejo incorporado: Estilo y funcionalidad en uno",
+    "Multiuso: Ideal para bebidas, golosinas y productos de skincare",
+    "Compatible con: Dormitorios, escritorios y autos"
+  ]
+},
 
-
+{
+  id: "esterilizador-multifuncional-biberon",
+  name: "Esterilizador Multifuncional para Biberones",
+  price: 139, // Ajustar precio según corresponda
+  category: "Alimentación del Bebé",
+  subCategory: "Complementos",
+  type: "almacenamiento",
+  image: "imagenes/Alimentación del Bebé/esterilizador multi.jpeg",
+  highlights: [
+    "Multifuncional: Esteriliza, calienta leche, descongela y más",
+    "Capacidad: Hasta 4 biberones simultáneamente",
+    "Panel digital LED: Control preciso de temperatura y tiempo",
+    "Tapa transparente: Visualiza el proceso fácilmente",
+    "Diseño compacto: Perfecto para el cuarto del bebé"
+  ]
+},
 
 
 
@@ -1155,7 +1206,7 @@ const PRODUCTS = [
 {
   id: "cuna-corral-plegable",
   name: "Cuna Corral Plegable",
-  price: 349,
+  price: 450,
   category: "Sueño y Descanso",
   subCategory: "Cuna y Almohada Colecho",
   type: "cuna",
