@@ -75,6 +75,26 @@ const PRODUCTS = [
     "Uso: Esterilizar antes de usar"
   ]
 },
+{
+  id: "extractor-inalambrico-s09-2gen",
+  name: "Extractor S09 2era Generación",
+  price: 119,
+  category: "Lactancia",
+  subCategory: "Extractores y Recolector de leche",
+  type: "extractor",
+  image: "imagenes/Lactancia/Extractor de Leche 2da Gen S09.jpeg",
+  highlights: [
+    "Modos y niveles: 3 modos y 9 niveles",
+    "Material: PP + Silicona",
+    "Brida: 24 mm",
+    "Capacidad: 210 ml",
+    "Tamaño: 16 x 12 x 8 cm",
+    "Incluye: Tapa protectora",
+    "Uso: Esterilizar antes de usar"
+  ]
+},
+
+
 /*{
   id: "extractor-leche-manual-2en1",
   name: "Extractor de Leche Manual 2 en 1 Portátil",
