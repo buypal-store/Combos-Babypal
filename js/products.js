@@ -18,6 +18,7 @@ const PRODUCTS = [
     "Uso: Esterilizar antes de usar"
   ]
 },
+/*
 {
   id: "extractor-inalambrico-s22",
   name: "Extractor S22 2da Generación",
@@ -37,7 +38,7 @@ const PRODUCTS = [
     "Uso: Esterilizar antes de usar"
   ]
 },
-
+*/
 {
   id: "extractor-inalambrico-s20",
   name: "Extractor Eléctrico S20 Pezón Plano e Invertido",
@@ -56,7 +57,7 @@ const PRODUCTS = [
     "Uso: Esterilizar antes de usar"
   ]
 },
-
+/*
 {
   id: "extractor-inalambrico-s09",
   name: "Extractor S09 1era Generación",
@@ -75,6 +76,7 @@ const PRODUCTS = [
     "Uso: Esterilizar antes de usar"
   ]
 },
+*/
 {
   id: "extractor-inalambrico-s09-2gen",
   name: "Extractor S09 2era Generación",
@@ -748,6 +750,26 @@ const PRODUCTS = [
     "Marca: Pigeon"
   ]
 },
+{
+  id: "recolector-leche-pigeon",
+  name: "Recolector de Leche Pigeon",
+  price: 8,
+  category: "Alimentación del Bebé",
+  subCategory: "Complementos",
+  type: "almacenamiento",
+  image: "imagenes/Alimentación del Bebé/recolector de leche pigeon unidad.png",
+  highlights: [
+    "Uso: Recolecta leche materna de forma práctica",
+    "Tapa segura: Ayuda a evitar derrames",
+    "Material seguro: Libre de BPA",
+    "Práctico: Ligero y fácil de transportar",
+    "Fácil limpieza: Diseño simple y funcional",
+    "Ideal para: Guardar leche recolectada",
+    "Compatibilidad: Uso diario en lactancia",
+    "Marca: Pigeon"
+  ]
+},
+
 {
   id: "set-3-frascos-recolectores-180ml",
   name: "Set de 3 Frascos Recolectores 180ml",
