@@ -7,7 +7,7 @@ const PRODUCTS = [
   category: "Lactancia",
   subCategory: "Extractores y Recolector de leche",
   type: "extractor",
-  image: "imagenes/Lactancia/EXTRACTOR S22.jpeg",
+  image: "imagenes/Lactancia/s22 3era generacion nuevo.jpeg",
   highlights: [
     "Modos y niveles: 3 modos y 9 niveles",
     "Material: PP + Silicona",
@@ -46,7 +46,7 @@ const PRODUCTS = [
   category: "Lactancia",
   subCategory: "Extractores y Recolector de leche",
   type: "extractor",
-  image: "imagenes/Lactancia/extractor s20.jpeg",
+  image: "imagenes/Lactancia/extractor s20 pezon plano nuevo.jpeg",
   highlights: [
     "Modos y niveles: 3 modos y 9 niveles",
     "Material: PP + Silicona",
@@ -79,12 +79,12 @@ const PRODUCTS = [
 */
 {
   id: "extractor-inalambrico-s09-2gen",
-  name: "Extractor S09 2era Generación",
-  price: 119,
+  name: "Extractor S09 2da Generación",
+  price: 208,
   category: "Lactancia",
   subCategory: "Extractores y Recolector de leche",
   type: "extractor",
-  image: "imagenes/Lactancia/Extractor de Leche 2da Gen S09.jpeg",
+  image: "imagenes/Lactancia/extractor s09 2da generacion nuevo.jpeg",
   highlights: [
     "Modos y niveles: 3 modos y 9 niveles",
     "Material: PP + Silicona",
@@ -391,14 +391,14 @@ const PRODUCTS = [
 
 
 
-/*{
+{
   id: "pack-terapia-pechos-calor-frio",
   name: "Pack de Terapia para Pechos con Calor y Frío",
-  price: 87,
+  price: 84,
   category: "Lactancia",
   subCategory: "Complementos",
   type: "terapia",
-  image: "imagenes/Alimentación y Lactancia/MASAJEADOR DE PECHO.jpeg",
+  image: "imagenes/Lactancia/Pack de Terapia Frio y Calor.jpeg",
   highlights: [
     "Seguro: Libre de BPA y BPS",
     "Frío: Reduce dolor e hinchazón por congestión",
@@ -410,7 +410,7 @@ const PRODUCTS = [
     "Marca: Lansinoh"
   ]
 },
-*/
+
 
 
 
@@ -504,7 +504,7 @@ const PRODUCTS = [
 {
   id: "biberon-pigeon-vidrio-240ml",
   name: "Biberón Pigeon 240ml de Vidrio Libre de BPA y BPS",
-  price: 79,
+  price: 85,
   category: "Alimentación del Bebé",
   subCategory: "Biberones y Tetinas",
   type: "biberon",
@@ -539,6 +539,11 @@ const PRODUCTS = [
     "Incluye: Guía de uso y limpieza"
   ]
 },
+
+
+
+
+
 {
   id: "tetina-pigeon-silicona-anticolico",
   name: "Tetina Pigeon de Silicona con Sistema Anticólico",
@@ -546,10 +551,8 @@ const PRODUCTS = [
   category: "Alimentación del Bebé",
   subCategory: "Biberones y Tetinas",
   type: "tetina",
-  image: "imagenes/Alimentación del Bebé/TETINAS PIGEON.jpeg",
+  image: "imagenes/Alimentación del Bebé/tetina 0 meses.jpeg",
   highlights: [
-    "Modelos: SS, S, M, L, LL y LLL",
-    "Edad: 0+ / 1+ / 3+ / 6+ / 9+ / 15+ meses",
     "Material: Silicona",
     "Sistema: Anticólico",
     "Corte: Flujo adaptado a cada etapa",
@@ -558,6 +561,90 @@ const PRODUCTS = [
     "Uso: Alimentación segura del bebé"
   ]
 },
+{
+  id: "tetina-pigeon-silicona-anticolico",
+  name: "Tetina Pigeon de Silicona con Sistema Anticólico",
+  price: 39,
+  category: "Alimentación del Bebé",
+  subCategory: "Biberones y Tetinas",
+  type: "tetina",
+  image: "imagenes/Alimentación del Bebé/tetina 1 mes.jpeg",
+  highlights: [
+    "Material: Silicona",
+    "Sistema: Anticólico",
+    "Corte: Flujo adaptado a cada etapa",
+    "Unidades: 2 piezas",
+    "Compatibilidad: Biberones Pigeon",
+    "Uso: Alimentación segura del bebé"
+  ]
+},{
+  id: "tetina-pigeon-silicona-anticolico",
+  name: "Tetina Pigeon de Silicona con Sistema Anticólico",
+  price: 39,
+  category: "Alimentación del Bebé",
+  subCategory: "Biberones y Tetinas",
+  type: "tetina",
+  image: "imagenes/Alimentación del Bebé/tetina 3 meses.jpeg",
+  highlights: [
+    "Material: Silicona",
+    "Sistema: Anticólico",
+    "Corte: Flujo adaptado a cada etapa",
+    "Unidades: 2 piezas",
+    "Compatibilidad: Biberones Pigeon",
+    "Uso: Alimentación segura del bebé"
+  ]
+},{
+  id: "tetina-pigeon-silicona-anticolico",
+  name: "Tetina Pigeon de Silicona con Sistema Anticólico",
+  price: 39,
+  category: "Alimentación del Bebé",
+  subCategory: "Biberones y Tetinas",
+  type: "tetina",
+  image: "imagenes/Alimentación del Bebé/tetina 6 meses.jpeg",
+  highlights: [
+    "Material: Silicona",
+    "Sistema: Anticólico",
+    "Corte: Flujo adaptado a cada etapa",
+    "Unidades: 2 piezas",
+    "Compatibilidad: Biberones Pigeon",
+    "Uso: Alimentación segura del bebé"
+  ]
+},{
+  id: "tetina-pigeon-silicona-anticolico",
+  name: "Tetina Pigeon de Silicona con Sistema Anticólico",
+  price: 39,
+  category: "Alimentación del Bebé",
+  subCategory: "Biberones y Tetinas",
+  type: "tetina",
+  image: "imagenes/Alimentación del Bebé/tetina 9 meses.jpeg",
+  highlights: [
+    "Material: Silicona",
+    "Sistema: Anticólico",
+    "Corte: Flujo adaptado a cada etapa",
+    "Unidades: 2 piezas",
+    "Compatibilidad: Biberones Pigeon",
+    "Uso: Alimentación segura del bebé"
+  ]
+},{
+  id: "tetina-pigeon-silicona-anticolico",
+  name: "Tetina Pigeon de Silicona con Sistema Anticólico",
+  price: 39,
+  category: "Alimentación del Bebé",
+  subCategory: "Biberones y Tetinas",
+  type: "tetina",
+  image: "imagenes/Alimentación del Bebé/tetina 15 meses.jpeg",
+  highlights: [
+    "Material: Silicona",
+    "Sistema: Anticólico",
+    "Corte: Flujo adaptado a cada etapa",
+    "Unidades: 2 piezas",
+    "Compatibilidad: Biberones Pigeon",
+    "Uso: Alimentación segura del bebé"
+  ]
+},
+
+
+
 {
   id: "calentador-biberon-portatil",
   name: "Calentador de Biberón Portátil",
@@ -752,12 +839,12 @@ const PRODUCTS = [
 },
 {
   id: "recolector-leche-pigeon",
-  name: "Recolector de Leche Pigeon",
-  price: 8,
+  name: "Recolector de Leche Materna",
+  price: 15,
   category: "Alimentación del Bebé",
   subCategory: "Complementos",
   type: "almacenamiento",
-  image: "imagenes/Alimentación del Bebé/recolector de leche pigeon unidad.png",
+  image: "imagenes/Alimentación del Bebé/Recolector Leche Materna.jpeg",
   highlights: [
     "Uso: Recolecta leche materna de forma práctica",
     "Tapa segura: Ayuda a evitar derrames",
@@ -1014,44 +1101,8 @@ const PRODUCTS = [
 
 
 //-------------------------------------------------------------------------
-{
-  id: "banera-plegable-termometro",
-  name: "Bañera Plegable con Termómetro",
-  price: 99,
-  category: "Baño del Bebé",
-  subCategory: "Bañeras",
-  type: "banera",
-  image: "imagenes/Baño del Bebé/Bañera.jpg",
-  highlights: [
-    "Material: Polipropileno + TPE",
-    "Medidas: 21 x 46 x 83 cm",
-    "Capacidad: 52 L",
-    "Plegable: Fácil de guardar",
-    "Patas: Antideslizantes",
-    "Incluye: Termómetro digital",
-    "Incluye: Regadera ballena",
-    "Extra: Cojín acolchado"
-  ]
-},
-{
-  id: "parante-banera-plegable-metal",
-  name: "Parante para Bañera Plegable de Metal",
-  price: 65,
-  category: "Baño del Bebé",
-  subCategory: "Complementos",
-  type: "parante",
-  image: "imagenes/Baño del Bebé/PARANTE BAÑERA.jpeg",
-  highlights: [
-    "Soporta: Hasta 80 kg",
-    "Material: Metal resistente",
-    "Plegable: Fácil de guardar",
-    "Medidas: 41 x 55 x 93 cm",
-    "Uso: Soporte para bañera",
-    "Función extra: Colgar prendas",
-    "Estable: Estructura firme",
-    "Práctico: Ideal para el baño del bebé"
-  ]
-},
+
+
 {
   id: "banera-cambiador-termometro-2en1",
   name: "Bañera Cambiador con Termómetro 2 en 1",
@@ -1071,6 +1122,86 @@ const PRODUCTS = [
     "Almacenaje: Espacios para accesorios"
   ]
 },
+{
+  id: "banera-plegable-termometro",
+  name: "Bañera Plegable con Termómetro Azul",
+  price: 79,
+  category: "Baño del Bebé",
+  subCategory: "Bañeras",
+  type: "banera",
+  image: "imagenes/Baño del Bebé/Bañera plegable azul.jpeg",
+  highlights: [
+    "Material: Polipropileno + TPE",
+    "Medidas: 21 x 46 x 83 cm",
+    "Capacidad: 52 L",
+    "Plegable: Fácil de guardar",
+    "Patas: Antideslizantes",
+    "Incluye: Termómetro digital",
+    "Incluye: Regadera ballena",
+    "Extra: Cojín acolchado"
+  ]
+},
+{
+  id: "banera-plegable-termometro",
+  name: "Bañera Plegable con Termómetro Verde",
+  price: 79,
+  category: "Baño del Bebé",
+  subCategory: "Bañeras",
+  type: "banera",
+  image: "imagenes/Baño del Bebé/Bañera plegable verde.jpeg",
+  highlights: [
+    "Material: Polipropileno + TPE",
+    "Medidas: 21 x 46 x 83 cm",
+    "Capacidad: 52 L",
+    "Plegable: Fácil de guardar",
+    "Patas: Antideslizantes",
+    "Incluye: Termómetro digital",
+    "Incluye: Regadera ballena",
+    "Extra: Cojín acolchado"
+  ]
+},
+{
+  id: "banera-plegable-termometro",
+  name: "Bañera Plegable con Termómetro Rosado",
+  price: 79,
+  category: "Baño del Bebé",
+  subCategory: "Bañeras",
+  type: "banera",
+  image: "imagenes/Baño del Bebé/Bañera plegable rosado.jpeg",
+  highlights: [
+    "Material: Polipropileno + TPE",
+    "Medidas: 21 x 46 x 83 cm",
+    "Capacidad: 52 L",
+    "Plegable: Fácil de guardar",
+    "Patas: Antideslizantes",
+    "Incluye: Termómetro digital",
+    "Incluye: Regadera ballena",
+    "Extra: Cojín acolchado"
+  ]
+},
+
+
+
+{
+  id: "parante-banera-plegable-metal",
+  name: "Parante para Bañera Plegable de Metal",
+  price: 65,
+  category: "Baño del Bebé",
+  subCategory: "Complementos",
+  type: "parante",
+  image: "imagenes/Baño del Bebé/PARANTE BAÑERA.jpeg",
+  highlights: [
+    "Soporta: Hasta 80 kg",
+    "Material: Metal resistente",
+    "Plegable: Fácil de guardar",
+    "Medidas: 41 x 55 x 93 cm",
+    "Uso: Soporte para bañera",
+    "Función extra: Colgar prendas",
+    "Estable: Estructura firme",
+    "Práctico: Ideal para el baño del bebé"
+  ]
+},
+
 {
   id: "gorra-bano-corona",
   name: "Gorra de Baño Corona",
@@ -1252,7 +1383,7 @@ const PRODUCTS = [
   category: "Sueño y Descanso",
   subCategory: "Cuna y Almohada Colecho",
   type: "cuna",
-  image: "imagenes/Cunal Corral Pegable.jpeg",
+  image: "imagenes/Sueño y Descanso/Cuna Corral Con Colchón Nuevo.jpeg",
   highlights: [
     "Diseño: Plegable y fácil de transportar",
     "Incluye: Mosquitero completo desmontable",
@@ -1559,12 +1690,12 @@ const PRODUCTS = [
 
 {
   id: "canguro-algodon-ergonomico-20kg",
-  name: "Canguro de Algodón Ergonómico",
+  name: "Mochila Ergonómica",
   price: 129, // Ajustar precio real aquí
   category: "Paseo y Transporte",
   subCategory: "Complementos",
   type: "ergonómico",
-  image: "imagenes/Paseo y Transporte/Canguro Ergonomico Nuevo.jpeg",
+  image: "imagenes/Paseo y Transporte/Mochila Ergonomica.jpeg",
   highlights: [
     "Ergonomía: Posición en M para el desarrollo de cadera",
     "Capacidad: Soporta hasta 20 kg (0 a 36 meses)",
@@ -2066,6 +2197,66 @@ const PRODUCTS = [
   ]
 },
 */
+{
+  id: "combo",
+  name: "Combo s22 3era Generación",
+  price: 500,
+  category: "Combos",
+  subCategory: "",
+  type: "camara",
+  image: "imagenes/Lactancia/2 extractores 3era generacion nuevo.jpeg",
+  highlights: [
+    "Modos y niveles: 3 modos y 9 niveles",
+    "Material: PP + Silicona",
+    "Brida: 27 mm",
+    "Capacidad: 180 ml",
+    "Tamaño: 13 x 12 x 7 cm",
+    "Incluye: 4 adaptadores",
+    "Uso: Esterilizar antes de usar"
+    
+  ]
+},
+{
+  id: "combo",
+  name: "Combo s20 Para Pezón Plano",
+  price: 500,
+  category: "Combos",
+  subCategory: "",
+  type: "camara",
+  image: "imagenes/Lactancia/2 extractores s20 pezon plano nuevo.jpeg",
+  highlights: [
+    "Modos y niveles: 3 modos y 9 niveles",
+    "Material: PP + Silicona",
+    "Adaptadores: 18mm, 21mm, 24mm y 27mm",
+    "Capacidad: 140 ml",
+    "Tamaño: 13 x 12 x 8 cm",
+    "Incluye: Repuesto de adaptadores",
+    "Uso: Esterilizar antes de usar"
+    
+  ]
+},
+{
+  id: "combo",
+  name: "Combo s09 2da Generación",
+  price: 416,
+  category: "Combos",
+  subCategory: "",
+  type: "camara",
+  image: "imagenes/Lactancia/2 extractores s09 2da generacion nuevo.jpeg",
+  highlights: [
+    "Modos y niveles: 3 modos y 9 niveles",
+    "Material: PP + Silicona",
+    "Brida: 24 mm",
+    "Capacidad: 210 ml",
+    "Tamaño: 16 x 12 x 8 cm",
+    "Incluye: Tapa protectora",
+    "Uso: Esterilizar antes de usar"
+    
+  ]
+},
+
+
+
 {
   id: "combo",
   name: "Combo Bañera",

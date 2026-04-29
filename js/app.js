@@ -18,7 +18,8 @@ const GIFT_ELIGIBLE_IDS = new Set([
   "camara-baby-monitor-proteccion",
   "formador-pezon-babypal",
   "mordedor-oruga-baby-toys",
-  "set-plato-vaso-bebe-azul"
+  "set-plato-vaso-bebe-azul",
+  "recolector-leche-pigeon"
 
   
 ]);
