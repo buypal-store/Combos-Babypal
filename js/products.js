@@ -1180,6 +1180,68 @@ const PRODUCTS = [
   ]
 },
 
+{
+  id: "banera-plegable-termometro",
+  name: "Set de Baño Rosa",
+  price: 179,
+  category: "Baño del Bebé",
+  subCategory: "Bañeras",
+  type: "banera",
+  image: "imagenes/Baño del Bebé/Set de baño verde (3).jpeg",
+  highlights: [
+  "Set: Bañera + accesorios completos",
+  "Diseño: Plegable fácil de guardar",
+  "Seguridad: Hamaca con cinturón incluida",
+  "Extras: 2 juguetes de pato integrados",
+  "Incluye: Toalla con capucha de osito",
+  "Sensor: Termómetro de temperatura",
+  "Decoración: Corona decorativa superior"
+]
+},
+{
+  id: "banera-plegable-termometro",
+  name: "Set de Baño Azul",
+  price: 179,
+  category: "Baño del Bebé",
+  subCategory: "Bañeras",
+  type: "banera",
+  image: "imagenes/Baño del Bebé/Set de baño verde (2).jpeg",
+ highlights: [
+  "Set: Bañera + accesorios completos",
+  "Diseño: Plegable fácil de guardar",
+  "Seguridad: Hamaca con cinturón incluida",
+  "Extras: 2 juguetes de pato integrados",
+  "Incluye: Toalla con capucha de osito",
+  "Sensor: Termómetro de temperatura",
+  "Decoración: Corona decorativa superior"
+]
+},
+{
+  id: "banera-plegable-termometro",
+  name: "Set de Baño Verde",
+  price: 179,
+  category: "Baño del Bebé",
+  subCategory: "Bañeras",
+  type: "banera",
+  image: "imagenes/Baño del Bebé/Set de baño verde (1).jpeg",
+  highlights: [
+  "Set: Bañera + accesorios completos",
+  "Diseño: Plegable fácil de guardar",
+  "Seguridad: Hamaca con cinturón incluida",
+  "Extras: 2 juguetes de pato integrados",
+  "Incluye: Toalla con capucha de osito",
+  "Sensor: Termómetro de temperatura",
+  "Decoración: Corona decorativa superior"
+]
+},
+
+
+
+
+
+
+
+
 
 
 {
@@ -1278,31 +1340,48 @@ const PRODUCTS = [
     "Diseño: Tierno y funcional"
   ]
 },
+
+
 {
   id: "mecedora-automatica-bluetooth",
-  name: "Mecedora Automática con Bluetooth",
-  price: 279,
+  name: "Arrullador Conejo",
+  price: 99,
   category: "Sueño y Descanso",
-  subCategory: "Mecedoras",
+  subCategory: "Arrulladores y Mecedoras",
   type: "mecedora",
-  image: "imagenes/Sueño y Descanso/blutu.jpg",
+  image: "imagenes/Sueño y Descanso/Peluche Arrullador Conejo.jpeg",
+ highlights: [
+  "Función: Palmadas rítmicas reconfortantes",
+  "Diseño: Conejo rosado adorable",
+  "Medida: 68 x 27 cm tamaño ideal",
+  "Uso: Relaja y ayuda a dormir",
+  "Compañero: Peluche suave interactivo",
+  "Beneficio: Ambiente tranquilo para bebés"
+]
+},
+{
+  id: "mecedora-automatica-bluetooth",
+  name: "Arrullador Jirafa",
+  price: 99,
+  category: "Sueño y Descanso",
+  subCategory: "Arrulladores y Mecedoras",
+  type: "mecedora",
+  image: "imagenes/Sueño y Descanso/Peluche Arrullador Jirafa.jpeg",
   highlights: [
-    "Material: Aluminio resistente",
-    "Modos: 5 variaciones de movimiento",
-    "Bluetooth: Reproduce música",
-    "Ajustes: Pantalla táctil",
-    "Seguridad: Cinturón de 5 puntos",
-    "Incluye: Mosquitero y funda",
-    "Extras: 2 juguetes integrados",
-    "Control: Incluye control remoto"
-  ]
+  "Función: Palmadas rítmicas reconfortantes",
+  "Diseño: Conejo rosado adorable",
+  "Medida: 68 x 27 cm tamaño ideal",
+  "Uso: Relaja y ayuda a dormir",
+  "Compañero: Peluche suave interactivo",
+  "Beneficio: Ambiente tranquilo para bebés"
+]
 },
 {
   id: "mecedora-manual-vibracion-suave",
   name: "Mecedora Manual con Vibración Suave",
   price: 109,
   category: "Sueño y Descanso",
-  subCategory: "Mecedoras",
+  subCategory: "Arrulladores y Mecedoras",
   type: "mecedora",
   image: "imagenes/Sueño y Descanso/mecedora.jpg",
   highlights: [
@@ -1317,11 +1396,30 @@ const PRODUCTS = [
   ]
 },
 {
+  id: "mecedora-automatica-bluetooth",
+  name: "Mecedora Automática con Bluetooth",
+  price: 279,
+  category: "Sueño y Descanso",
+  subCategory: "Arrulladores y Mecedoras",
+  type: "mecedora",
+  image: "imagenes/Sueño y Descanso/blutu.jpg",
+  highlights: [
+    "Material: Aluminio resistente",
+    "Modos: 5 variaciones de movimiento",
+    "Bluetooth: Reproduce música",
+    "Ajustes: Pantalla táctil",
+    "Seguridad: Cinturón de 5 puntos",
+    "Incluye: Mosquitero y funda",
+    "Extras: 2 juguetes integrados",
+    "Control: Incluye control remoto"
+  ]
+},
+{
   id: "mecedora-manual",
   name: "Mecedora Manual",
   price: 79,
   category: "Sueño y Descanso",
-  subCategory: "Mecedoras",
+  subCategory: "Arrulladores y Mecedoras",
   type: "mecedora",
   image: "imagenes/Paseo y Transporte/mecedora manual.jpeg",
   highlights: [
@@ -1414,6 +1512,47 @@ const PRODUCTS = [
     "Medidas: 98 cm (Largo) x 57 cm (Ancho) x 102 cm (Alto)"
   ]
 },
+
+{
+  id: "mochila-calentador-termica-lactancia",
+  name: "Almohada de Apoyo Rosada",
+  price: 69,
+  category: "Sueño y Descanso",
+  subCategory: "Almohadas",
+  type: "mochila",
+  image: "imagenes/Sueño y Descanso/Almohada de Apoyo (1).jpeg",
+  highlights: [
+  "Tipo: Almohada de apoyo para bebé",
+  "Color: Celeste suave y tierno",
+  "Diseño: Ergonómico con soporte lateral",
+  "Uso: Ideal para recién nacidos",
+  "Beneficio: Postura segura y cómoda",
+  "Precio: S/ 79"
+]
+},
+{
+  id: "mochila-calentador-termica-lactancia",
+  name: "Almohada de Apoyo Celeste",
+  price: 69,
+  category: "Sueño y Descanso",
+  subCategory: "Almohadas",
+  type: "mochila",
+  image: "imagenes/Sueño y Descanso/Almohada de Apoyo (2).jpeg",
+  highlights: [
+  "Tipo: Almohada de apoyo para bebé",
+  "Color: Celeste suave y tierno",
+  "Diseño: Ergonómico con soporte lateral",
+  "Uso: Ideal para recién nacidos",
+  "Beneficio: Postura segura y cómoda",
+  "Precio: S/ 79"
+]
+},
+
+
+
+
+
+
 /*{
   id: "almohada-colecho-multifuncional",
   name: "Almohada Colecho Multifuncional y Portátil",
@@ -1706,6 +1845,159 @@ const PRODUCTS = [
     "Comodidad: Apertura de piernas con bordes acolchados"
   ]
 },
+
+
+
+
+{
+  id: "canguro-algodon-ergonomico-20kg",
+  name: "Cambiador Portatil Negro con Blanco",
+  price: 49, // Ajustar precio real aquí
+  category: "Paseo y Transporte",
+  subCategory: "Complementos",
+  type: "ergonómico",
+  image: "imagenes/Paseo y Transporte/Cambiador portatil (1).jpeg",
+  highlights: [
+  "Tipo: Cambiador portátil para bebé",
+  "Diseño: Compacto con asa para llevar",
+  "Uso: Cambia al bebé en cualquier lugar",
+  "Estampado: Arcoíris y estrellas",
+  "Función: Se despliega como superficie de cambio",
+  "Compartimentos: Bolsillos para pañales y accesorios",
+  "Practicidad: Ideal para salidas y viajes"
+]
+},
+{
+  id: "canguro-algodon-ergonomico-20kg",
+  name: "Cambiador Portatil Negro con Naranja",
+  price: 49, // Ajustar precio real aquí
+  category: "Paseo y Transporte",
+  subCategory: "Complementos",
+  type: "ergonómico",
+  image: "imagenes/Paseo y Transporte/Cambiador portatil (2).jpeg",
+  highlights: [
+  "Tipo: Cambiador portátil para bebé",
+  "Diseño: Compacto con asa para llevar",
+  "Uso: Cambia al bebé en cualquier lugar",
+  "Estampado: Arcoíris y estrellas",
+  "Función: Se despliega como superficie de cambio",
+  "Compartimentos: Bolsillos para pañales y accesorios",
+  "Practicidad: Ideal para salidas y viajes"
+]
+},
+{
+  id: "canguro-algodon-ergonomico-20kg",
+  name: "Cambiador Portatil Azul con Amarillo",
+  price: 49, // Ajustar precio real aquí
+  category: "Paseo y Transporte",
+  subCategory: "Complementos",
+  type: "ergonómico",
+  image: "imagenes/Paseo y Transporte/Cambiador portatil (3).jpeg",
+  highlights: [
+  "Tipo: Cambiador portátil para bebé",
+  "Diseño: Compacto con asa para llevar",
+  "Uso: Cambia al bebé en cualquier lugar",
+  "Estampado: Arcoíris y estrellas",
+  "Función: Se despliega como superficie de cambio",
+  "Compartimentos: Bolsillos para pañales y accesorios",
+  "Practicidad: Ideal para salidas y viajes"
+]
+},
+{
+  id: "almohada-ergonomica-verde-estrellas",
+  name: "Almohada Ergonómica Verde con Estrellas",
+  price: 45,
+  category: "Paseo y Transporte",
+  subCategory: "Complementos",
+  type: "ergonómica",
+  image: "imagenes/Paseo y Transporte/Almohada Ergonómica (1).jpeg",
+  highlights: [
+    "Tipo: Almohada ergonómica para bebé",
+    "Diseño: Sujeción lateral con correas",
+    "Uso: Postura segura durante el baño",
+    "Beneficio: Sostén cómodo y estable",
+    "Estampado: Verde con estrellas",
+    "Material: Suave y acolchado"
+  ]
+},
+{
+  id: "almohada-ergonomica-coronas",
+  name: "Almohada Ergonómica Coronas",
+  price: 45,
+  category: "Paseo y Transporte",
+  subCategory: "Complementos",
+  type: "ergonómica",
+  image: "imagenes/Paseo y Transporte/Almohada Ergonómica (2).jpeg",
+  highlights: [
+    "Tipo: Almohada ergonómica para bebé",
+    "Diseño: Sujeción lateral con correas",
+    "Uso: Postura segura durante el baño",
+    "Beneficio: Sostén cómodo y estable",
+    "Estampado: Coronas",
+    "Material: Suave y acolchado"
+  ]
+},
+{
+  id: "almohada-ergonomica-celeste",
+  name: "Almohada Ergonómica Celeste",
+  price: 45,
+  category: "Paseo y Transporte",
+  subCategory: "Complementos",
+  type: "ergonómica",
+  image: "imagenes/Paseo y Transporte/Almohada Ergonómica (3).jpeg",
+  highlights: [
+    "Tipo: Almohada ergonómica para bebé",
+    "Diseño: Sujeción lateral con correas",
+    "Uso: Postura segura durante el baño",
+    "Beneficio: Sostén cómodo y estable",
+    "Estampado: Celeste liso",
+    "Material: Suave y acolchado"
+  ]
+},
+{
+  id: "almohada-ergonomica-rosado",
+  name: "Almohada Ergonómica Rosado",
+  price: 45,
+  category: "Paseo y Transporte",
+  subCategory: "Complementos",
+  type: "ergonómica",
+  image: "imagenes/Paseo y Transporte/Almohada Ergonómica (4).jpeg",
+  highlights: [
+    "Tipo: Almohada ergonómica para bebé",
+    "Diseño: Sujeción lateral con correas",
+    "Uso: Postura segura durante el baño",
+    "Beneficio: Sostén cómodo y estable",
+    "Estampado: Rosado liso",
+    "Material: Suave y acolchado"
+  ]
+},
+{
+  id: "almohada-ergonomica-blanco-estrellas",
+  name: "Almohada Ergonómica Blanco con Estrellas",
+  price: 45,
+  category: "Paseo y Transporte",
+  subCategory: "Complementos",
+  type: "ergonómica",
+  image: "imagenes/Paseo y Transporte/Almohada Ergonómica (5).jpeg",
+  highlights: [
+    "Tipo: Almohada ergonómica para bebé",
+    "Diseño: Sujeción lateral con correas",
+    "Uso: Postura segura durante el baño",
+    "Beneficio: Sostén cómodo y estable",
+    "Estampado: Blanco con estrellas",
+    "Material: Suave y acolchado"
+  ]
+},
+
+
+
+
+
+
+
+
+
+
 
 {
   id: "movil-cuna-giratorio-musical",
