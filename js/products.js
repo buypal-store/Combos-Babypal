@@ -2,6 +2,42 @@ const PRODUCTS = [
 //-------------------------LACTANCIA------------------------
   {
   id: "extractor-inalambrico-s22",
+  name: "Extractor S09 2da Generación",
+  price: 208,
+  category: "Lactancia",
+  subCategory: "Extractores y Recolector de leche",
+  type: "extractor",
+  image: "imagenes/Lactancia/s09 lactancia.jpeg",
+  highlights: [
+  ]
+},
+  {
+  id: "extractor-inalambrico-s22",
+  name: "Extractor S20 para Pezón Plano",
+  price: 250,
+  category: "Lactancia",
+  subCategory: "Extractores y Recolector de leche",
+  type: "extractor",
+  image: "imagenes/Lactancia/WhatsApp Image 2026-06-10 at 11.45.49 AM.jpeg",
+  highlights: [
+  ]
+},
+
+  {
+  id: "extractor-inalambrico-s22",
+  name: "Extractor S22 3ra Generación",
+  price: 250,
+  category: "Lactancia",
+  subCategory: "Extractores y Recolector de leche",
+  type: "extractor",
+  image: "imagenes/Lactancia/WhatsApp Image 2026-06-10 at 11.45.49 AM (1).jpeg",
+  highlights: [
+  ]
+},
+
+
+{
+  id: "extractor-inalambrico-s22",
   name: "Extractor Inalámbrico Recargable S22",
   price: 250,
   category: "Lactancia",
@@ -1102,7 +1138,40 @@ const PRODUCTS = [
 
 //-------------------------------------------------------------------------
 
+{
+  id: "banera-cambiador-termometro-2en1",
+  name: "Bañera plegable 8 Accesorios Azul",
+  price: 179,
+  category: "Baño del Bebé",
+  subCategory: "Bañeras",
+  type: "banera",
+  image: "imagenes/Baño del Bebé/bañera azul.jpeg",
+  highlights: [
 
+  ]
+},{
+  id: "banera-cambiador-termometro-2en1",
+  name: "Bañera plegable 8 Accesorios Rosada",
+  price: 179,
+  category: "Baño del Bebé",
+  subCategory: "Bañeras",
+  type: "banera",
+  image: "imagenes/Baño del Bebé/bañera rosa.jpeg",
+  highlights: [
+
+  ]
+},{
+  id: "banera-cambiador-termometro-2en1",
+  name: "Bañera plegable 8 Accesorios Morada",
+  price: 179,
+  category: "Baño del Bebé",
+  subCategory: "Bañeras",
+  type: "banera",
+  image: "imagenes/Baño del Bebé/bañera morada.jpeg",
+  highlights: [
+
+  ]
+},
 {
   id: "banera-cambiador-termometro-2en1",
   name: "Bañera Cambiador con Termómetro 2 en 1",
@@ -1339,6 +1408,34 @@ const PRODUCTS = [
     "Edad: Hasta 2 añitos",
     "Diseño: Tierno y funcional"
   ]
+},
+
+
+
+
+{
+  id: "mecedora-automatica-bluetooth",
+  name: "Mecedora Eléctrica Melody Beige",
+  price: 329,
+  category: "Sueño y Descanso",
+  subCategory: "Arrulladores y Mecedoras",
+  type: "mecedora",
+  image: "imagenes/Sueño y Descanso/mecedora beige.jpeg",
+ highlights: [
+
+]
+},
+{
+  id: "mecedora-automatica-bluetooth",
+  name: "Mecedora Eléctrica Melody Rosada",
+  price: 329,
+  category: "Sueño y Descanso",
+  subCategory: "Arrulladores y Mecedoras",
+  type: "mecedora",
+  image: "imagenes/Sueño y Descanso/mecedora rosa.jpeg",
+ highlights: [
+
+]
 },
 
 
@@ -2489,6 +2586,43 @@ const PRODUCTS = [
   ]
 },
 */
+{
+  id: "combo",
+  name: "Combo Junio",
+  price: 416,
+  category: "Combos",
+  subCategory: "",
+  type: "camara",
+  image: "imagenes/Combos Marzo/combito nuevo (1).jpeg",
+  highlights: [
+
+  ]
+},
+{
+  id: "combo",
+  name: "Combo Junio",
+  price: 500,
+  category: "Combos",
+  subCategory: "",
+  type: "camara",
+  image: "imagenes/Combos Marzo/combito nuevo (2).jpeg",
+  highlights: [
+
+  ]
+},
+{
+  id: "combo",
+  name: "Combo Junio",
+  price: 500,
+  category: "Combos",
+  subCategory: "",
+  type: "camara",
+  image: "imagenes/Combos Marzo/combito nuevo (3).jpeg",
+  highlights: [
+
+  ]
+},
+
 {
   id: "combo",
   name: "Combo s22 3era Generación",
