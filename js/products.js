@@ -1,6 +1,87 @@
 const PRODUCTS = [
 //-------------------------LACTANCIA------------------------
-  {
+ {
+  id: "extractor-inalambrico-s22",
+  name: "Extractor MY- 373 Fucsia",
+  price: 239,
+  category: "Lactancia",
+  subCategory: "Extractores y Recolector de leche",
+  type: "extractor",
+  image: "imagenes/Lactancia/Extractor MY- 373.jpeg",
+  highlights: [
+    "4 modos: Masaje, Extración, Estimulación y Formador de pezón",
+    "12 niveles de potencia",
+    "Brida de 24 mm",
+    "Para mamás con Pezón en punta, ayuda a aumentar producción y hacer banco de leche",
+    "Electrico y manos libres",
+    "Regalos por live: limpiador pigeon 200ml y 30 bolsitas de leche"
+  ]
+},
+
+ {
+  id: "extractor-inalambrico-s22",
+  name: "Extractor MY- 373 Dorado",
+  price: 239,
+  category: "Lactancia",
+  subCategory: "Extractores y Recolector de leche",
+  type: "extractor",
+  image: "imagenes/Lactancia/Extractor MY- 373 dorado.jpeg",
+  highlights: [
+    "4 modos: Masaje, Extración, Estimulación y Formador de pezón",
+    "12 niveles de potencia",
+    "Brida de 24 mm",
+    "Para mamás con Pezón en punta, ayuda a aumentar producción y hacer banco de leche",
+    "Electrico y manos libres",
+    "Regalos por live: limpiador pigeon 200ml y 30 bolsitas de leche"
+  ]
+},
+
+ {
+  id: "extractor-inalambrico-s22",
+  name: "Extractor MY- 373 Rosado",
+  price: 239,
+  category: "Lactancia",
+  subCategory: "Extractores y Recolector de leche",
+  type: "extractor",
+  image: "imagenes/Lactancia/Extracto MY- 373 rosado.jpeg",
+  highlights: [
+    "4 modos: Masaje, Extración, Estimulación y Formador de pezón",
+    "12 niveles de potencia",
+    "Brida de 24 mm",
+    "Para mamás con Pezón en punta, ayuda a aumentar producción y hacer banco de leche",
+    "Electrico y manos libres",
+    "Regalos por live: limpiador pigeon 200ml y 30 bolsitas de leche"
+  ]
+},
+ {
+  id: "extractor-inalambrico-s22",
+  name: "Extractor MY-372 Grado Hospitalario",
+  price: 239,
+  category: "Lactancia",
+  subCategory: "Extractores y Recolector de leche",
+  type: "extractor",
+  image: "imagenes/Lactancia/Extractor MY-372 hospitalario.jpeg",
+  highlights: [
+    "3 modos de extracción",
+    "9 niveles de potencia",
+    "Electrico",
+    "Regalo por live: brasier de lactancia (opciones de color y tallas)"
+   ]
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
   id: "extractor-inalambrico-s22",
   name: "Extractor S09 2da Generación",
   price: 208,
@@ -209,6 +290,25 @@ const PRODUCTS = [
     "Fácil de limpiar: Desmontaje rápido y sencillo"
   ]
 },
+{
+  id: "extractor-inalambrico-s22",
+  name: "Faja Post Parto 3 piezas",
+  price: 109,
+  category: "Lactancia",
+  subCategory: "Complementos",
+  type: "bolsitas",
+  image: "imagenes/Lactancia/Faja de 3 piezas.jpeg",
+  highlights: [
+    "Faja Pelvica, Costillera y Cinturilla",
+    "Cesaria: usar de 5 a 6 días post parto",
+    "Parto Natural: usar 24 horas post parto",
+    "Opciones de tallas (Usar una talla más de su talla de polo)"
+  ]
+},
+
+
+
+
 {
   id: "bolsitas-leche-250ml-30unid",
   name: "Bolsitas de Leche 250ml (30 unidades)",
@@ -1137,6 +1237,25 @@ const PRODUCTS = [
 
 
 //-------------------------------------------------------------------------
+{
+  id: "banera-cambiador-termometro-2en1",
+  name: "Bañera plegable 8 Accesorios Gris",
+  price: 179,
+  category: "Baño del Bebé",
+  subCategory: "Bañeras",
+  type: "banera",
+  image: "imagenes/Baño del Bebé/Bañera Gris.jpeg",
+  highlights: [
+    "Bañera plegable con termometro digital",
+    "capacidad de 52 litros",
+    "Largo: 80cm",
+    "incluye: gorro de baño, cojín ergonómico, regadera electrica, regadera manual, mini kit de uñas, tazon y 1 guante"
+
+  ]
+},
+
+
+
 
 {
   id: "banera-cambiador-termometro-2en1",
@@ -1147,6 +1266,10 @@ const PRODUCTS = [
   type: "banera",
   image: "imagenes/Baño del Bebé/bañera azul.jpeg",
   highlights: [
+    "Bañera plegable con termometro digital",
+    "capacidad de 52 litros",
+    "Largo: 80cm",
+    "incluye: gorro de baño, cojín ergonómico, regadera electrica, regadera manual, mini kit de uñas, tazon y 1 guante"
 
   ]
 },{
@@ -1158,6 +1281,11 @@ const PRODUCTS = [
   type: "banera",
   image: "imagenes/Baño del Bebé/bañera rosa.jpeg",
   highlights: [
+      "Bañera plegable con termometro digital",
+    "capacidad de 52 litros",
+    "Largo: 80cm",
+    "incluye: gorro de baño, cojín ergonómico, regadera electrica, regadera manual, mini kit de uñas, tazon y 1 guante"
+
 
   ]
 },{
@@ -1169,6 +1297,10 @@ const PRODUCTS = [
   type: "banera",
   image: "imagenes/Baño del Bebé/bañera morada.jpeg",
   highlights: [
+  "Bañera plegable con termometro digital",
+    "capacidad de 52 litros",
+    "Largo: 80cm",
+    "incluye: gorro de baño, cojín ergonómico, regadera electrica, regadera manual, mini kit de uñas, tazon y 1 guante"
 
   ]
 },
