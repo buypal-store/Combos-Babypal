@@ -53,6 +53,7 @@ const PRODUCTS = [
     "Regalos por live: limpiador pigeon 200ml y 30 bolsitas de leche"
   ]
 },
+
  {
   id: "extractor-inalambrico-s22",
   name: "Extractor MY-372 Grado Hospitalario",
@@ -60,12 +61,12 @@ const PRODUCTS = [
   category: "Lactancia",
   subCategory: "Extractores y Recolector de leche",
   type: "extractor",
-  image: "imagenes/Lactancia/Extractor MY-372 hospitalario.jpeg",
+  image: "imagenes/Lactancia/MY 372.jpeg",
   highlights: [
     "3 modos de extracción",
     "9 niveles de potencia",
     "Electrico",
-    "Regalo por live: brasier de lactancia (opciones de color y tallas)"
+    "RegaloS por live"
    ]
 },
 
@@ -290,6 +291,20 @@ const PRODUCTS = [
     "Fácil de limpiar: Desmontaje rápido y sencillo"
   ]
 },
+{
+  id: "extractor-inalambrico-s22",
+  name: "sosten de Lactancia",
+  price: 49,
+  category: "Lactancia",
+  subCategory: "Complementos",
+  type: "bolsitas",
+  image: "imagenes/Lactancia/Brasier.jpeg",
+  highlights: [
+    "Sosten de Lactancia para el bebé"
+  ]
+},
+
+
 {
   id: "extractor-inalambrico-s22",
   name: "Faja Post Parto 3 piezas",
@@ -896,6 +911,38 @@ const PRODUCTS = [
   ]
 },
 */
+
+{
+  id: "dispensador-formula-3-capas",
+  name: "Esterlizador 3 en 1  (esterilizada, sancocha y licua)",
+  price: 89,
+  category: "Alimentación del Bebé",
+  subCategory: "Complementos",
+  type: "dispensador",
+  image: "imagenes/Alimentación del Bebé/Esterilizador 3 en 1.jpeg",
+  highlights: [
+    "Portátil: Ideal para salidas",
+    "esterilizada, sancocha y licua"
+  ]
+},
+{
+  id: "dispensador-formula-3-capas",
+  name: "Esterlizador 3 en 1  (esterilizada, sancocha y licua)",
+  price: 79,
+  category: "Alimentación del Bebé",
+  subCategory: "Complementos",
+  type: "dispensador",
+  image: "imagenes/Alimentación del Bebé/Esterilizador 3 en 1 79.jpeg",
+  highlights: [
+    "Portátil: Ideal para salidas",
+    "esterilizada, sancocha y licua"
+  ]
+},
+
+
+
+
+
 {
   id: "dispensador-formula-3-capas",
   name: "Dispensador para Fórmula de 3 Capas",
@@ -1306,19 +1353,18 @@ const PRODUCTS = [
 },
 {
   id: "banera-cambiador-termometro-2en1",
-  name: "Bañera Cambiador con Termómetro 2 en 1",
+  name: "Bañera Cambiador 2 en 1",
   price: 349,
   category: "Baño del Bebé",
   subCategory: "Bañeras",
   type: "banera",
-  image: "imagenes/Baño del Bebé/BAÑERA CAMBIADOR.jpeg",
+  image: "imagenes/Baño del Bebé/Bañera Cambiador 2 en 1.jpeg",
   highlights: [
     "Material: Hierro y polipropileno",
     "Medidas: 83 x 48 x 93 cm",
     "Soporta: De 20 a 30 kg",
     "Altura: Ajustable",
     "Cambiador: Acolchado",
-    "Incluye: Termómetro integrado",
     "Patas: Antideslizantes con ruedas",
     "Almacenaje: Espacios para accesorios"
   ]
@@ -1548,7 +1594,7 @@ const PRODUCTS = [
 {
   id: "mecedora-automatica-bluetooth",
   name: "Mecedora Eléctrica Melody Beige",
-  price: 329,
+  price: 349,
   category: "Sueño y Descanso",
   subCategory: "Arrulladores y Mecedoras",
   type: "mecedora",
@@ -1559,8 +1605,20 @@ const PRODUCTS = [
 },
 {
   id: "mecedora-automatica-bluetooth",
+  name: "Mecedora Eléctrica Melody Verde",
+  price: 349,
+  category: "Sueño y Descanso",
+  subCategory: "Arrulladores y Mecedoras",
+  type: "mecedora",
+  image: "imagenes/Sueño y Descanso/Mecedora verde agua.jpeg",
+ highlights: [
+
+]
+},
+{
+  id: "mecedora-automatica-bluetooth",
   name: "Mecedora Eléctrica Melody Rosada",
-  price: 329,
+  price: 349,
   category: "Sueño y Descanso",
   subCategory: "Arrulladores y Mecedoras",
   type: "mecedora",
@@ -1569,7 +1627,40 @@ const PRODUCTS = [
 
 ]
 },
-
+{
+  id: "mecedora-automatica-bluetooth",
+  name: "Arrullador Cisne",
+  price: 99,
+  category: "Sueño y Descanso",
+  subCategory: "Arrulladores y Mecedoras",
+  type: "mecedora",
+  image: "imagenes/Sueño y Descanso/Cisne Arrullador.jpeg",
+ highlights: [
+  "Función: Palmadas rítmicas reconfortantes",
+  "Diseño: Conejo rosado adorable",
+  "Medida: 68 x 27 cm tamaño ideal",
+  "Uso: Relaja y ayuda a dormir",
+  "Compañero: Peluche suave interactivo",
+  "Beneficio: Ambiente tranquilo para bebés"
+]
+},
+{
+  id: "mecedora-automatica-bluetooth",
+  name: "Arrullador Dinosaurio",
+  price: 99,
+  category: "Sueño y Descanso",
+  subCategory: "Arrulladores y Mecedoras",
+  type: "mecedora",
+  image: "imagenes/Sueño y Descanso/Dinosaurio Arrullador.jpeg",
+ highlights: [
+  "Función: Palmadas rítmicas reconfortantes",
+  "Diseño: Conejo rosado adorable",
+  "Medida: 68 x 27 cm tamaño ideal",
+  "Uso: Relaja y ayuda a dormir",
+  "Compañero: Peluche suave interactivo",
+  "Beneficio: Ambiente tranquilo para bebés"
+]
+},
 
 {
   id: "mecedora-automatica-bluetooth",
@@ -1691,7 +1782,7 @@ const PRODUCTS = [
   category: "Sueño y Descanso",
   subCategory: "Cuna y Almohada Colecho",
   type: "cuna",
-  image: "imagenes/Sueño y Descanso/colecho.jpg",
+  image: "imagenes/Sueño y Descanso/Cuna colecho Mecedora 4 en q.jpeg",
   highlights: [
     "Medidas: 88 x 56 x 122 cm",
     "Altura: 5 niveles ajustables",
@@ -2606,7 +2697,7 @@ const PRODUCTS = [
 {
   id: "camara-baby-monitor-proteccion",
   name: "Cámara Baby Monitor con Pantalla y Visión Nocturna",
-  price: 229,
+  price: 239,
   category: "Protección",
   subCategory: "Seguridad",
   type: "camara",
