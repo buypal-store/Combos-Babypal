@@ -291,6 +291,20 @@ const PRODUCTS = [
     "Fácil de limpiar: Desmontaje rápido y sencillo"
   ]
 },
+{
+  id: "extractor-inalambrico-s22",
+  name: "Recolector de Leche",
+  price: 45,
+  category: "Lactancia",
+  subCategory: "Complementos",
+  type: "bolsitas",
+  image: "imagenes/Alimentación del Bebé/Recolectora de leche.jpeg",
+  highlights: [
+    
+  ]
+},
+
+
 
 {
   id: "extractor-inalambrico-s22",
@@ -952,44 +966,19 @@ const PRODUCTS = [
 
 {
   id: "dispensador-formula-3-capas",
-  name: "Licuadora Nutribullet Baby",
-  price: 219,
+  name: "Licuadora Baby Bullet",
+  price: 239,
   category: "Alimentación del Bebé",
   subCategory: "Complementos",
   type: "dispensador",
-  image: "imagenes/Alimentación del Bebé/nutribebe xd.jpeg",
+  image: "imagenes/Alimentación del Bebé/Licuadora Baby Bullet.jpeg",
   highlights: [
     "Portátil: Ideal para salidas",
   ]
 },
 
 
-{
-  id: "dispensador-formula-3-capas",
-  name: "Esterilizador 3 en 1  (esterilizada, sancocha y licua)",
-  price: 159,
-  category: "Alimentación del Bebé",
-  subCategory: "Complementos",
-  type: "dispensador",
-  image: "imagenes/Alimentación del Bebé/Esterilizador 3 en 1.jpeg",
-  highlights: [
-    "Portátil: Ideal para salidas",
-    "esterilizada, sancocha y licua"
-  ]
-},
-{
-  id: "dispensador-formula-3-capas",
-  name: "Esterilizador 3 en 1  (esterilizada, sancocha y licua)",
-  price: 159,
-  category: "Alimentación del Bebé",
-  subCategory: "Complementos",
-  type: "dispensador",
-  image: "imagenes/Alimentación del Bebé/Esterilizador 3 en 1 79.jpeg",
-  highlights: [
-    "Portátil: Ideal para salidas",
-    "esterilizada, sancocha y licua"
-  ]
-},
+
 
 
 
@@ -1232,7 +1221,32 @@ const PRODUCTS = [
 },
 
 //---------------------------------------------------------------------------------
-
+{
+  id: "dispensador-formula-3-capas",
+  name: "Esterilizador 3 en 1  (esterilizada, sancocha y licua)",
+  price: 159,
+  category: "Alimentación del Bebé",
+  subCategory: "Complementos",
+  type: "dispensador",
+  image: "imagenes/Alimentación del Bebé/Esterilizador 3 en 1.jpeg",
+  highlights: [
+    "Portátil: Ideal para salidas",
+    "esterilizada, sancocha y licua"
+  ]
+},
+{
+  id: "dispensador-formula-3-capas",
+  name: "Esterilizador 3 en 1  (esterilizada, sancocha y licua)",
+  price: 159,
+  category: "Alimentación del Bebé",
+  subCategory: "Complementos",
+  type: "dispensador",
+  image: "imagenes/Alimentación del Bebé/Esterilizador 3 en 1 79.jpeg",
+  highlights: [
+    "Portátil: Ideal para salidas",
+    "esterilizada, sancocha y licua"
+  ]
+},
 {
   id: "aspirador-nasal-pigeon-tubo",
   name: "Aspirador Nasal Pigeon Tipo Tubo",
