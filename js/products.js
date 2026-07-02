@@ -291,6 +291,21 @@ const PRODUCTS = [
     "Fácil de limpiar: Desmontaje rápido y sencillo"
   ]
 },
+
+{
+  id: "extractor-inalambrico-s22",
+  name: "Concha Recolectora",
+  price: 49,
+  category: "Lactancia",
+  subCategory: "Complementos",
+  type: "bolsitas",
+  image: "imagenes/Alimentación del Bebé/cosa para el bebe.jpeg",
+  highlights: [
+    
+  ]
+},
+
+
 {
   id: "extractor-inalambrico-s22",
   name: "sosten de Lactancia",
@@ -834,6 +849,23 @@ const PRODUCTS = [
     "Carga: Cable tipo C"
   ]
 },
+
+{
+  id: "silla-comer-rodante-bandeja",
+  name: "Silla de Comer Plegable",
+  price: 119,
+  category: "Alimentación del Bebé",
+  subCategory: "Sillas de Comer",
+  type: "silla",
+  image: "imagenes/Alimentación del Bebé/silla de comer plegable.jpeg",
+  highlights: [
+
+  ]
+},
+
+
+
+
 {
   id: "silla-comer-rodante-bandeja",
   name: "Silla de Comer Rodante con Bandeja Extraíble",
@@ -853,6 +885,10 @@ const PRODUCTS = [
     "Incluye: Almacenamiento inferior"
   ]
 },
+
+
+
+
 {
   id: "silla-comedor-multifuncional-rosada",
   name: "Silla de Comer Multifuncional Rosada",
@@ -912,10 +948,24 @@ const PRODUCTS = [
 },
 */
 
+
 {
   id: "dispensador-formula-3-capas",
-  name: "Esterlizador 3 en 1  (esterilizada, sancocha y licua)",
-  price: 89,
+  name: "Licuadora Nutribullet Baby",
+  price: 219,
+  category: "Alimentación del Bebé",
+  subCategory: "Complementos",
+  type: "dispensador",
+  image: "imagenes/Alimentación del Bebé/nutribebe xd.jpeg",
+  highlights: [
+    "Portátil: Ideal para salidas",
+  ]
+},
+
+{
+  id: "dispensador-formula-3-capas",
+  name: "Esterilizador 3 en 1  (esterilizada, sancocha y licua)",
+  price: 159,
   category: "Alimentación del Bebé",
   subCategory: "Complementos",
   type: "dispensador",
@@ -927,8 +977,8 @@ const PRODUCTS = [
 },
 {
   id: "dispensador-formula-3-capas",
-  name: "Esterlizador 3 en 1  (esterilizada, sancocha y licua)",
-  price: 79,
+  name: "Esterilizador 3 en 1  (esterilizada, sancocha y licua)",
+  price: 159,
   category: "Alimentación del Bebé",
   subCategory: "Complementos",
   type: "dispensador",
@@ -1630,7 +1680,7 @@ const PRODUCTS = [
 {
   id: "mecedora-automatica-bluetooth",
   name: "Arrullador Cisne",
-  price: 99,
+  price: 109,
   category: "Sueño y Descanso",
   subCategory: "Arrulladores y Mecedoras",
   type: "mecedora",
@@ -1647,7 +1697,7 @@ const PRODUCTS = [
 {
   id: "mecedora-automatica-bluetooth",
   name: "Arrullador Dinosaurio",
-  price: 99,
+  price: 109,
   category: "Sueño y Descanso",
   subCategory: "Arrulladores y Mecedoras",
   type: "mecedora",
@@ -1665,7 +1715,7 @@ const PRODUCTS = [
 {
   id: "mecedora-automatica-bluetooth",
   name: "Arrullador Conejo",
-  price: 99,
+  price: 109,
   category: "Sueño y Descanso",
   subCategory: "Arrulladores y Mecedoras",
   type: "mecedora",
@@ -1682,7 +1732,7 @@ const PRODUCTS = [
 {
   id: "mecedora-automatica-bluetooth",
   name: "Arrullador Jirafa",
-  price: 99,
+  price: 109,
   category: "Sueño y Descanso",
   subCategory: "Arrulladores y Mecedoras",
   type: "mecedora",
@@ -2027,6 +2077,60 @@ const PRODUCTS = [
     "Medidas: 106 cm (Alto) x 52 cm (Ancho) x 78 cm (Largo)"
   ]
 },
+{
+  id: "panalera-cambiador-12-compartimientos",
+  name: "Canguro Evolutivo",
+  price: 99,
+  category: "Paseo y Transporte",
+  subCategory: "Complementos",
+  type: "panalera",
+  image: "imagenes/Paseo y Transporte/canguro evolutivo gris.jpeg",
+  highlights: [
+    "Funciona como mochila ergonómica (de 2 a 6 o 9 meses)",
+    "Cuando sabe sentarse puede usar solo la base",
+    "Se puede usar hasta los 3 años",
+    "Modo canguro: posición en M evita la displacia de cadera",
+    "Bolsillo delantero y bolsillo para biberón"
+  ]
+},
+
+{
+  id: "panalera-cambiador-12-compartimientos",
+  name: "Canguro Evolutivo",
+  price: 99,
+  category: "Paseo y Transporte",
+  subCategory: "Complementos",
+  type: "panalera",
+  image: "imagenes/Paseo y Transporte/canguro evolutivo morado.jpeg",
+  highlights: [
+    "Funciona como mochila ergonómica (de 2 a 6 o 9 meses)",
+    "Cuando sabe sentarse puede usar solo la base",
+    "Se puede usar hasta los 3 años",
+    "Modo canguro: posición en M evita la displacia de cadera",
+    "Bolsillo delantero y bolsillo para biberón"
+  ]
+},
+{
+  id: "panalera-cambiador-12-compartimientos",
+  name: "Canguro Evolutivo",
+  price: 99,
+  category: "Paseo y Transporte",
+  subCategory: "Complementos",
+  type: "panalera",
+  image: "imagenes/Paseo y Transporte/canguro evolutivo rosado.jpeg",
+  highlights: [
+    "Funciona como mochila ergonómica (de 2 a 6 o 9 meses)",
+    "Cuando sabe sentarse puede usar solo la base",
+    "Se puede usar hasta los 3 años",
+    "Modo canguro: posición en M evita la displacia de cadera",
+    "Bolsillo delantero y bolsillo para biberón"
+  ]
+},
+
+
+
+
+
 
 {
   id: "panalera-cambiador-12-compartimientos",
