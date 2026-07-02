@@ -850,6 +850,7 @@ const PRODUCTS = [
   ]
 },
 
+
 {
   id: "silla-comer-rodante-bandeja",
   name: "Silla de Comer Plegable",
