@@ -295,7 +295,7 @@ const PRODUCTS = [
 {
   id: "extractor-inalambrico-s22",
   name: "Concha Recolectora",
-  price: 49,
+  price: 45,
   category: "Lactancia",
   subCategory: "Complementos",
   type: "bolsitas",
@@ -853,7 +853,7 @@ const PRODUCTS = [
 {
   id: "silla-comer-rodante-bandeja",
   name: "Silla de Comer Plegable",
-  price: 119,
+  price: 139,
   category: "Alimentación del Bebé",
   subCategory: "Sillas de Comer",
   type: "silla",
