@@ -1486,6 +1486,19 @@ const PRODUCTS = [
 //-------------------------------------------------------------------------
 {
   id: "banera-cambiador-termometro-2en1",
+  name: "Bañera Cambiador",
+  price: 349,
+  category: "Baño del Bebé",
+  subCategory: "Bañeras",
+  type: "banera",
+  image: "imagenes/Baño del Bebé/bañera cambiador.jpeg",
+  highlights: [
+ 
+
+  ]
+},
+{
+  id: "banera-cambiador-termometro-2en1",
   name: "Bañera plegable 8 Accesorios Gris",
   price: 179,
   category: "Baño del Bebé",
@@ -1500,10 +1513,6 @@ const PRODUCTS = [
 
   ]
 },
-
-
-
-
 {
   id: "banera-cambiador-termometro-2en1",
   name: "Bañera plegable 8 Accesorios Azul",
@@ -3063,6 +3072,34 @@ const PRODUCTS = [
   ]
 },
 */
+{
+  id: "combo",
+  name: "Combo Lonchera Térmica Azul",
+  price: 199,
+  category: "Combos",
+  subCategory: "",
+  type: "camara",
+  image: "imagenes/Combos Marzo/Combo Lonchera Térmica Azul.jpeg",
+  highlights: [
+
+  ]
+},
+{
+  id: "combo",
+  name: "Combo Lonchera Térmica Rosa",
+  price: 199,
+  category: "Combos",
+  subCategory: "",
+  type: "camara",
+  image: "imagenes/Combos Marzo/Combo Lonchera Térmica Rosa.jpeg",
+  highlights: [
+
+  ]
+},
+
+
+
+ 
 {
   id: "combo",
   name: "Combo Junio",
