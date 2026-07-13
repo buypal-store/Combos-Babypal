@@ -1,5 +1,37 @@
 const PRODUCTS = [
 //-------------------------LACTANCIA------------------------
+
+ {
+  id: "extractor-inalambrico-s22",
+  name: "Extractor Eléctrico S22 15 Niveles (Color Aleatorio)",
+  price: 250,
+  category: "Lactancia",
+  subCategory: "Extractores y Recolector de leche",
+  type: "extractor",
+  image: "imagenes/Lactancia/Extractor Eléctrico S22 15 Niveles.jpeg",
+  highlights: [
+    "Color Aleatorio",
+    "Niveles 15"
+  ]
+},
+ {
+  id: "extractor-inalambrico-s22",
+  name: "Extractor Eléctrico S22 15 Niveles (Color Aleatorio)",
+  price: 250,
+  category: "Lactancia",
+  subCategory: "Extractores y Recolector de leche",
+  type: "extractor",
+  image: "imagenes/Lactancia/Extractor Eléctrico S22 15 Niveles (2).jpeg",
+  highlights: [
+    "Color Aleatorio",
+    "Niveles 15"
+  ]
+},
+
+
+
+
+ 
  {
   id: "extractor-inalambrico-s22",
   name: "Extractor MY- 373 Fucsia",
@@ -291,6 +323,24 @@ const PRODUCTS = [
     "Fácil de limpiar: Desmontaje rápido y sencillo"
   ]
 },
+
+{
+  id: "extractor-inalambrico-s22",
+  name: "Chupón Suavinex Zero",
+  price: 50,
+  category: "Lactancia",
+  subCategory: "Complementos",
+  type: "bolsitas",
+  image: "imagenes/Lactancia/chupon suavinex zero zero.jpeg",
+  highlights: [
+   "Para bebés desde los 0 meses hasta los 6 meses.",
+   "Silicona 100% de grado médico." ,
+   "Chupón hipoalergénico apto para pieles sensibles.",
+   "Respeta la correcta implantación de la lactancia materna durante los primeros días."
+  ]
+},
+
+ 
 {
   id: "extractor-inalambrico-s22",
   name: "Recolector de Leche",
