@@ -1223,6 +1223,67 @@ const PRODUCTS = [
 //---------------------------------------------------------------------------------
 {
   id: "dispensador-formula-3-capas",
+  name: "Mini Kit de Limpieza 6 Piezas Rosado",
+  price: 19,
+ category: "Higiene y Limpieza",
+  subCategory: "Complementos",
+  type: "dispensador",
+  image: "imagenes/Higiene y Limpieza/Mini Kit de limpieza 6 piezas Rosado.jpeg",
+  highlights: [
+    "Portátil: Ideal para salidas",
+    "esterilizada, sancocha y licua"
+  ]
+},
+{
+  id: "dispensador-formula-3-capas",
+  name: "Mini Kit de Limpieza 6 Piezas Celeste",
+  price: 19,
+ category: "Higiene y Limpieza",
+  subCategory: "Complementos",
+  type: "dispensador",
+  image: "imagenes/Higiene y Limpieza/Mini Kit de limpieza 6 piezas Celeste.jpeg",
+  highlights: [
+    "Portátil: Ideal para salidas",
+    "esterilizada, sancocha y licua"
+  ]
+},
+ {
+  id: "dispensador-formula-3-capas",
+  name: "Kit de Limpieza 10 Piezas Rosado",
+  price: 49,
+ category: "Higiene y Limpieza",
+  subCategory: "Complementos",
+  type: "dispensador",
+  image: "imagenes/Higiene y Limpieza/Kit de limpieza 10 piezas Rosado.jpeg",
+  highlights: [
+    "Portátil: Ideal para salidas",
+    "esterilizada, sancocha y licua"
+  ]
+},
+ {
+  id: "dispensador-formula-3-capas",
+  name: "Kit de Limpieza 10 Piezas Celeste",
+  price: 49,
+ category: "Higiene y Limpieza",
+  subCategory: "Complementos",
+  type: "dispensador",
+  image: "imagenes/Higiene y Limpieza/Kit de limpieza 10 piezas Celeste.jpeg",
+  highlights: [
+    "Portátil: Ideal para salidas",
+    "esterilizada, sancocha y licua"
+  ]
+},
+
+
+
+
+
+ 
+
+
+ 
+{
+  id: "dispensador-formula-3-capas",
   name: "Esterilizador 3 en 1  (esterilizada, sancocha y licua)",
   price: 159,
  category: "Higiene y Limpieza",
@@ -1304,47 +1365,6 @@ const PRODUCTS = [
     "Fácil: De usar y transportar"
   ]
 },
-{
-  id: "baby-care-kit-rosa",
-  name: "Baby Kit de Limpieza",
-  price: 49,
-  category: "Higiene y Limpieza",
-  subCategory: "Complementos",
-  type: "set",
-  image: "imagenes/Higiene y Limpieza/Baby_Care_Kit_Rosa_1024x1024.jpg",
-  highlights: [
-    "Incluye: 8 piezas esenciales de cuidado",
-    "Contenido: Cepillo, peine, termómetro, tijeras, cortaúñas, lima, aspirador nasal y pinza",
-    "Edad: Desde recién nacido (0+)",
-    "Material: Libre de BPA",
-    "Seguro: Puntas redondeadas para mayor protección",
-    "Ideal: Kit completo para higiene del bebé",
-    "Presentación: Caja organizadora",
-    "Color: Rosa"
-  ]
-},
-{
-  id: "baby-care-kit-rosa-compacto",
-  name: "Baby Kit de Limpieza Básico",
-  price: 19,
-  category: "Higiene y Limpieza",
-  subCategory: "Complementos",
-  type: "set",
-  image: "imagenes/Higiene y Limpieza/Baby_Care_Kit_Rosa_Compacto_1024x1024.jpg",
-  highlights: [
-    "Incluye: 5 piezas esenciales",
-    "Contenido: Cepillo, peine, tijeras, cortaúñas y lima",
-    "Edad: Desde recién nacido (0+)",
-    "Material: Libre de BPA",
-    "Seguro: Tijeras de punta redondeada",
-    "Ideal: Kit básico para el cuidado diario",
-    "Presentación: Caja con ventana",
-    "Color: Rosa"
-  ]
-},
-
-
-
 
 
 
