@@ -964,6 +964,70 @@ const PRODUCTS = [
 */
 
 
+
+
+ 
+ 
+{
+  id: "dispensador-formula-3-capas",
+  name: "Set de Alimentación de Silicona",
+  price: 79,
+  category: "Alimentación del Bebé",
+  subCategory: "Complementos",
+  type: "dispensador",
+  image: "imagenes/Alimentación del Bebé/Set de alimentación de silicona azul.jpeg",
+  highlights: [
+    
+  ]
+},
+{
+  id: "dispensador-formula-3-capas",
+  name: "Set de Alimentación de Silicona",
+  price: 79,
+  category: "Alimentación del Bebé",
+  subCategory: "Complementos",
+  type: "dispensador",
+  image: "imagenes/Alimentación del Bebé/Set de alimentación de silicona gris.jpeg",
+  highlights: [
+  
+  ]
+},
+{
+  id: "dispensador-formula-3-capas",
+  name: "Set de Alimentación de Silicona",
+  price: 79,
+  category: "Alimentación del Bebé",
+  subCategory: "Complementos",
+  type: "dispensador",
+  image: "imagenes/Alimentación del Bebé/Set de alimentación de silicona marrón.jpeg",
+  highlights: [
+   
+  ]
+},
+{
+  id: "dispensador-formula-3-capas",
+  name: "Set de Alimentación de Silicona",
+  price: 79,
+  category: "Alimentación del Bebé",
+  subCategory: "Complementos",
+  type: "dispensador",
+  image: "imagenes/Alimentación del Bebé/Set de alimentación de silicona rosada.jpeg",
+  highlights: [
+   
+  ]
+},
+
+
+
+
+ 
+
+
+
+
+
+ 
+
 {
   id: "dispensador-formula-3-capas",
   name: "Licuadora Baby Bullet",
