@@ -1,6 +1,34 @@
 const PRODUCTS = [
 //-------------------------LACTANCIA------------------------
 
+
+
+ {
+  id: "extractor-s21-pro-max",
+  name: "Extractor S21 Pro Max",
+  price: 250,
+  category: "Lactancia",
+  subCategory: "Extractores y Recolector de leche",
+  type: "extractor",
+  image: "imagenes/Lactancia/Extractor-s21-pro.jepg",
+  highlights: [
+    "Color Aleatorio",
+    "Niveles 15"
+  ]
+},
+  {
+  id: "extractor-s22-pro-max",
+  name: "Extractor S22 Pro Max",
+  price: 250,
+  category: "Lactancia",
+  subCategory: "Extractores y Recolector de leche",
+  type: "extractor",
+  image: "imagenes/Lactancia/Extractor-s22-pro.jepg",
+  highlights: [
+    "Color Aleatorio",
+    "Niveles 15"
+  ]
+},
  {
   id: "extractor-inalambrico-s22",
   name: "Extractor Eléctrico S22 15 Niveles (Color Aleatorio)",
@@ -646,6 +674,30 @@ const PRODUCTS = [
 
 
 //-------------------------BIBERONES Y TETINAS------------------------
+
+
+ {
+  id: "biberon-pigeon-pp",
+  name: "Protector de Silicona 5oz",
+  price: 15,
+  category: "Alimentación del Bebé",
+  subCategory: "Biberones y Tetinas",
+  type: "biberon",
+  image: "imagenes/Alimentación del Bebé/Protector-de-Silicona-5oz.jpeg",
+  highlights: [
+  ]
+},
+ {
+  id: "biberon-pigeon-pp",
+  name: "Protector de Silicona 8oz",
+  price: 15,
+  category: "Alimentación del Bebé",
+  subCategory: "Biberones y Tetinas",
+  type: "biberon",
+  image: "imagenes/Alimentación del Bebé/Protector-de-Silicona-8oz.jpeg",
+  highlights: [
+  ]
+},
 {
   id: "biberon-pigeon-pp",
   name: "Biberón Pigeon PP Libre de BPA y BPS",
@@ -1797,9 +1849,43 @@ const PRODUCTS = [
   ]
 },
 
+{
+  id: "mecedora-automatica-bluetooth",
+  name: "Colecho Arrullador",
+  price: 179,
+  category: "Sueño y Descanso",
+  subCategory: "Arrulladores y Mecedoras",
+  type: "mecedora",
+  image: "imagenes/Sueño y Descanso/colecho-arrullador.jpeg",
+ highlights: [
 
+]
+},
+{
+  id: "mecedora-automatica-bluetooth",
+  name: "Mecedora Multifuncional 4 en 1",
+  price: 279,
+  category: "Sueño y Descanso",
+  subCategory: "Arrulladores y Mecedoras",
+  type: "mecedora",
+  image: "imagenes/Sueño y Descanso/mecedora-multifuncional-4-en-1.jpeg",
+ highlights: [
 
+]
+},
+{
+  id: "mecedora-automatica-bluetooth",
+  name: "Mecedora Multifuncional 5 en 1",
+  price: 379,
+  category: "Sueño y Descanso",
+  subCategory: "Arrulladores y Mecedoras",
+  type: "mecedora",
+  image: "imagenes/Sueño y Descanso/mecedora-multifuncional-5-en-1.jpeg",
+ highlights: [
 
+]
+},
+ 
 {
   id: "mecedora-automatica-bluetooth",
   name: "Mecedora Eléctrica Melody Beige",
@@ -2957,6 +3043,22 @@ const PRODUCTS = [
     "Ideal: Para niños pequeños"
   ]
 },
+
+
+{
+  id: "camara-baby-monitor-proteccion",
+  name: "Cámara Monitor con Wifi",
+  price: 450,
+  category: "Protección",
+  subCategory: "Seguridad",
+  type: "camara",
+  image: "imagenes/Seguridad/Cámara-Monitor-con-Wifi.jpeg",
+  highlights: [
+  ]
+},
+
+
+ 
 {
   id: "camara-baby-monitor-proteccion",
   name: "Cámara Baby Monitor con Pantalla y Visión Nocturna",
