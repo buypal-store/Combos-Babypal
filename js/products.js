@@ -10,7 +10,7 @@ const PRODUCTS = [
   category: "Lactancia",
   subCategory: "Extractores y Recolector de leche",
   type: "extractor",
-  image: "imagenes/Lactancia/Extractor-s22-pro.jpeg",
+  image: "imagenes/Lactancia/Extractor-s21-pro.jpeg",
   highlights: [
     "Color Aleatorio",
     "Niveles 15"
@@ -23,7 +23,7 @@ const PRODUCTS = [
   category: "Lactancia",
   subCategory: "Extractores y Recolector de leche",
   type: "extractor",
-  image: "imagenes/Lactancia/Extractor-s21-pro.jepg",
+  image: "imagenes/Lactancia/Extractor-s22-pro.jpeg",
   highlights: [
     "Color Aleatorio",
     "Niveles 15"
